@@ -30,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": true,
-  "spriteId": null,
+  "spriteId": {
+    "name": "RockSpr",
+    "path": "sprites/RockSpr/RockSpr.yy",
+  },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

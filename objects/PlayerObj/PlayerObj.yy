@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "OwlSprite",
-    "path": "sprites/OwlSprite/OwlSprite.yy",
+    "name": "CatSprite",
+    "path": "sprites/CatSprite/CatSprite.yy",
   },
   "spriteMaskId": null,
   "visible": true,

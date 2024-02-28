@@ -20,7 +20,7 @@
     {"name":"CollisionTiles","order":2,"path":"tilesets/CollisionTiles/CollisionTiles.yy",},
     {"name":"RockSpr","order":5,"path":"sprites/RockSpr/RockSpr.yy",},
     {"name":"TileSet2","order":5,"path":"tilesets/TileSet2/TileSet2.yy",},
-    {"name":"OwlSprite","order":2,"path":"sprites/OwlSprite/OwlSprite.yy",},
+    {"name":"CatSprite","order":7,"path":"sprites/CatSprite/CatSprite.yy",},
     {"name":"IceTilesSpr","order":4,"path":"sprites/IceTilesSpr/IceTilesSpr.yy",},
     {"name":"IceTileSet2","order":1,"path":"tilesets/IceTileSet2/IceTileSet2.yy",},
     {"name":"IceTile2","order":1,"path":"sprites/IceTile2/IceTile2.yy",},
