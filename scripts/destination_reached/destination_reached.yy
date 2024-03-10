@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "player_collision",
+  "name": "destination_reached",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
