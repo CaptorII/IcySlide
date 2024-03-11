@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "CatSprite",
-    "path": "sprites/CatSprite/CatSprite.yy",
+    "name": "SprCat",
+    "path": "sprites/SprCat/SprCat.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "TileSet2",
+  "name": "TsIce",
   "autoTileSets": [
     {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","closed_edge":true,"tiles":[
         47,
@@ -66,8 +66,8 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "IceTilesSpr2",
-    "path": "sprites/IceTilesSpr2/IceTilesSpr2.yy",
+    "name": "SprIceTiles",
+    "path": "sprites/SprIceTiles/SprIceTiles.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
