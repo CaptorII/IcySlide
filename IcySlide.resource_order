@@ -21,7 +21,7 @@
     {"name":"StartMenu","order":1,"path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"destination_reached","order":2,"path":"scripts/destination_reached/destination_reached.yy",},
     {"name":"TsIce","order":5,"path":"tilesets/TsIce/TsIce.yy",},
-    {"name":"ObjButton","order":4,"path":"objects/ObjButton/ObjButton.yy",},
+    {"name":"ObjButtonParent","order":4,"path":"objects/ObjButtonParent/ObjButtonParent.yy",},
     {"name":"SprCat","order":7,"path":"sprites/SprCat/SprCat.yy",},
     {"name":"vector2","order":1,"path":"scripts/vector2/vector2.yy",},
     {"name":"PlayerObj","order":2,"path":"objects/PlayerObj/PlayerObj.yy",},
@@ -31,6 +31,9 @@
     {"name":"SprPlayerLeft","order":9,"path":"sprites/SprPlayerLeft/SprPlayerLeft.yy",},
     {"name":"SprButton","order":12,"path":"sprites/SprButton/SprButton.yy",},
     {"name":"SprIceTiles","order":6,"path":"sprites/SprIceTiles/SprIceTiles.yy",},
+    {"name":"ObjBtnPlay","order":5,"path":"objects/ObjBtnPlay/ObjBtnPlay.yy",},
+    {"name":"ObjBtnQuit","order":6,"path":"objects/ObjBtnQuit/ObjBtnQuit.yy",},
     {"name":"WallObj","order":3,"path":"objects/WallObj/WallObj.yy",},
+    {"name":"Level1","order":2,"path":"rooms/Level1/Level1.yy",},
   ],
 }
