@@ -69,7 +69,6 @@ if moving {
 		//stop moving if on snow
 		if tilemap_get_at_pixel(snow_tilemap, x, y) {
 			moving = false;
-			image_index = 0;
 			return;
 		//keep going in the same direction if on ice
 		} else if face == 0 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x + global.grid_size, y) {
@@ -82,7 +81,6 @@ if moving {
 			destination[1] += global.grid_size;
 		} else {
 			moving = false;
-			image_index = 0;
 		}
 	}
 }

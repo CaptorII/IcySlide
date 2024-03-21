@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SprCat",
-    "path": "sprites/SprCat/SprCat.yy",
+    "name": "SprFoxDown",
+    "path": "sprites/SprFoxDown/SprFoxDown.yy",
   },
   "spriteMaskId": null,
   "visible": true,
