@@ -66,6 +66,10 @@ if moving {
 		x += x_speed;
 		y += y_speed;
 	} else {
+		if tilemap_get_at_pixel(goal, x, y) {
+			level_complete();
+			return;
+		}
 		//stop moving if on snow
 		if tilemap_get_at_pixel(snow_tilemap, x, y) {
 			moving = false;

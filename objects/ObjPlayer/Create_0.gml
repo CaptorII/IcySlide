@@ -22,3 +22,4 @@ sprite[3] = SprFoxDown;
 
 ice_tilemap = layer_tilemap_get_id(layer_get_id("IceTiles"));
 snow_tilemap = layer_tilemap_get_id(layer_get_id("SnowTiles"));
+goal = layer_tilemap_get_id(layer_get_id("FlagTiles"));
