@@ -40,6 +40,7 @@
     {"name":"Level3","order":6,"path":"rooms/Level3/Level3.yy",},
     {"name":"ObjBtnQuit","order":2,"path":"objects/ObjBtnQuit/ObjBtnQuit.yy",},
     {"name":"ObjWall","order":3,"path":"objects/ObjWall/ObjWall.yy",},
+    {"name":"Level4","order":7,"path":"rooms/Level4/Level4.yy",},
     {"name":"Level1","order":2,"path":"rooms/Level1/Level1.yy",},
   ],
 }
