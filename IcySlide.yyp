@@ -46,6 +46,7 @@
     {"id":{"name":"SprFoxDown","path":"sprites/SprFoxDown/SprFoxDown.yy",},},
     {"id":{"name":"ObjButtonParent","path":"objects/ObjButtonParent/ObjButtonParent.yy",},},
     {"id":{"name":"FntMain","path":"fonts/FntMain/FntMain.yy",},},
+    {"id":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},},
     {"id":{"name":"vector2","path":"scripts/vector2/vector2.yy",},},
     {"id":{"name":"ObjBtnReturn","path":"objects/ObjBtnReturn/ObjBtnReturn.yy",},},
     {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},},
@@ -61,6 +62,7 @@
     {"id":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},},
     {"id":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
+    {"id":{"name":"variable_init","path":"scripts/variable_init/variable_init.yy",},},
     {"id":{"name":"TestLevel","path":"rooms/TestLevel/TestLevel.yy",},},
   ],
   "RoomOrderNodes": [

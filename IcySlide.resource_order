@@ -28,6 +28,7 @@
     {"name":"TsIce","order":5,"path":"tilesets/TsIce/TsIce.yy",},
     {"name":"SprFoxDown","order":13,"path":"sprites/SprFoxDown/SprFoxDown.yy",},
     {"name":"ObjButtonParent","order":3,"path":"objects/ObjButtonParent/ObjButtonParent.yy",},
+    {"name":"ObjGame","order":9,"path":"objects/ObjGame/ObjGame.yy",},
     {"name":"vector2","order":1,"path":"scripts/vector2/vector2.yy",},
     {"name":"ObjBtnReturn","order":4,"path":"objects/ObjBtnReturn/ObjBtnReturn.yy",},
     {"name":"ObjPlayer","order":2,"path":"objects/ObjPlayer/ObjPlayer.yy",},
@@ -42,5 +43,6 @@
     {"name":"ObjWall","order":3,"path":"objects/ObjWall/ObjWall.yy",},
     {"name":"Level4","order":7,"path":"rooms/Level4/Level4.yy",},
     {"name":"Level1","order":2,"path":"rooms/Level1/Level1.yy",},
+    {"name":"variable_init","order":4,"path":"scripts/variable_init/variable_init.yy",},
   ],
 }
