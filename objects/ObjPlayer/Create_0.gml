@@ -1,5 +1,3 @@
-global.grid_size = 64;
-
 //movement
 ice_speed = 8;
 snow_speed = 4;

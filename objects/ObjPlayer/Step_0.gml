@@ -8,9 +8,9 @@ k_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 if !moving {
 	if k_right {
 		face = 0;
-		if place_free(x + global.grid_size, y) {
+		if place_free(x + GRID_SIZE, y) {
 			moving = true;
-			destination = vector2(x + global.grid_size, y);
+			destination = vector2(x + GRID_SIZE, y);
 			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
 				cur_speed = ice_speed;
 			} else {
@@ -21,9 +21,9 @@ if !moving {
 		}		
 	} else if k_up {
 		face = 1;
-		if place_free(x, y - global.grid_size) {
+		if place_free(x, y - GRID_SIZE) {
 			moving = true;
-			destination = vector2(x, y - global.grid_size);
+			destination = vector2(x, y - GRID_SIZE);
 			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
 				cur_speed = -ice_speed;
 			} else {
@@ -34,9 +34,9 @@ if !moving {
 		}
 	} else if k_left {
 		face = 2;
-		if place_free(x - global.grid_size, y) {
+		if place_free(x - GRID_SIZE, y) {
 			moving = true;
-			destination = vector2(x - global.grid_size, y);
+			destination = vector2(x - GRID_SIZE, y);
 			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
 				cur_speed = -ice_speed;
 			} else {
@@ -47,9 +47,9 @@ if !moving {
 		}		
 	} else if k_down {
 		face = 3;
-		if place_free(x, y + global.grid_size) {
+		if place_free(x, y + GRID_SIZE) {
 			moving = true;
-			destination = vector2(x, y + global.grid_size);
+			destination = vector2(x, y + GRID_SIZE);
 			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
 				cur_speed = ice_speed;
 			} else {
@@ -72,19 +72,23 @@ if moving {
 		}
 		//stop moving if on snow
 		if tilemap_get_at_pixel(snow_tilemap, x, y) {
+			//hit snow			
 			moving = false;
+			global.moves_in_level++;
 			return;
 		//keep going in the same direction if on ice
-		} else if face == 0 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x + global.grid_size, y) {
-			destination[0] += global.grid_size;
-		} else if face == 1 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x, y - global.grid_size)  {
-			destination[1] -= global.grid_size;
-		} else if face == 2 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x - global.grid_size, y)  {
-			destination[0] -= global.grid_size;
-		} else if face == 3 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x, y + global.grid_size)  {
-			destination[1] += global.grid_size;
+		} else if face == 0 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x + GRID_SIZE, y) {
+			destination[0] += GRID_SIZE;
+		} else if face == 1 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x, y - GRID_SIZE)  {
+			destination[1] -= GRID_SIZE;
+		} else if face == 2 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x - GRID_SIZE, y)  {
+			destination[0] -= GRID_SIZE;
+		} else if face == 3 && tilemap_get_at_pixel(ice_tilemap, x, y) && place_free(x, y + GRID_SIZE)  {
+			destination[1] += GRID_SIZE;
 		} else {
+			//hit a rock
 			moving = false;
+			global.moves_in_level++;
 		}
 	}
 }
