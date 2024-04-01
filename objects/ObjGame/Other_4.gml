@@ -1,0 +1,1 @@
+global.moves_in_level = 0;
