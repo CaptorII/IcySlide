@@ -1,0 +1,1 @@
+move_string = "Moves: 0";
