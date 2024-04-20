@@ -1,6 +1,9 @@
 function level_complete(){
 	if (global.current_flag_count != global.flag_count) {
-		return;
+		//return;
+		show_debug_message("not enough flags gathered");
+	} else {
+		show_debug_message("collected all flags");
 	}
 	show_debug_message("moves: " + string((global.moves_in_level + 1)));
 	if (room == LAST_LEVEL) {
@@ -11,5 +14,5 @@ function level_complete(){
 }
 
 function flag_pickup(){
-	global.current_flag_count++;
+	global.current_flag_count++;	
 }
