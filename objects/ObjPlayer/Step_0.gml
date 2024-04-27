@@ -10,6 +10,7 @@ if (!moving) {
 		face = 0;
 		if (place_free(x + GRID_SIZE, y)) {
 			moving = true;
+			move_right = false;
 			destination = vector2(x + GRID_SIZE, y);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
@@ -23,6 +24,7 @@ if (!moving) {
 		face = 1;
 		if (place_free(x, y - GRID_SIZE)) {
 			moving = true;
+			move_up = false;
 			destination = vector2(x, y - GRID_SIZE);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
@@ -36,6 +38,7 @@ if (!moving) {
 		face = 2;
 		if (place_free(x - GRID_SIZE, y)) {
 			moving = true;
+			move_left = false;
 			destination = vector2(x - GRID_SIZE, y);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
@@ -49,6 +52,7 @@ if (!moving) {
 		face = 3;
 		if (place_free(x, y + GRID_SIZE)) {
 			moving = true;
+			move_down = false;
 			destination = vector2(x, y + GRID_SIZE);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
