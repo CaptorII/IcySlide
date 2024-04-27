@@ -8,10 +8,10 @@ k_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 if (!moving) {
 	if (k_right || move_right) {
 		face = 0;
-		if place_free(x + GRID_SIZE, y) {
+		if (place_free(x + GRID_SIZE, y)) {
 			moving = true;
 			destination = vector2(x + GRID_SIZE, y);
-			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
+			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
 			} else {
 				cur_speed = snow_speed;
@@ -21,10 +21,10 @@ if (!moving) {
 		}		
 	} else if (k_up || move_up) {
 		face = 1;
-		if place_free(x, y - GRID_SIZE) {
+		if (place_free(x, y - GRID_SIZE)) {
 			moving = true;
 			destination = vector2(x, y - GRID_SIZE);
-			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
+			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
 			} else {
 				cur_speed = -snow_speed;
@@ -34,10 +34,10 @@ if (!moving) {
 		}
 	} else if (k_left || move_left) {
 		face = 2;
-		if place_free(x - GRID_SIZE, y) {
+		if (place_free(x - GRID_SIZE, y)) {
 			moving = true;
 			destination = vector2(x - GRID_SIZE, y);
-			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
+			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
 			} else {
 				cur_speed = -snow_speed;
@@ -47,10 +47,10 @@ if (!moving) {
 		}		
 	} else if (k_down || move_down) {
 		face = 3;
-		if place_free(x, y + GRID_SIZE) {
+		if (place_free(x, y + GRID_SIZE)) {
 			moving = true;
 			destination = vector2(x, y + GRID_SIZE);
-			if tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1]) {
+			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
 			} else {
 				cur_speed = snow_speed;
@@ -67,8 +67,9 @@ if (moving) {
 		y += y_speed;
 	} else {
 		if (tilemap_get_at_pixel(goal, x, y)) {
-			level_complete();
-			return;
+			if (!level_complete()) {
+				destination[1] += GRID_SIZE;
+			}
 		}
 		//stop moving if on snow
 		if (tilemap_get_at_pixel(snow_tilemap, x, y)) {

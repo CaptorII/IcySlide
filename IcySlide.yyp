@@ -17,6 +17,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buttons","folderPath":"folders/Objects/Buttons.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cracks","folderPath":"folders/Objects/Cracks.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"HUD","folderPath":"folders/Objects/HUD.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Paths/Particle Systems.yy",},
@@ -29,7 +30,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cracks","folderPath":"folders/Sprites/Cracks.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cracks","folderPath":"folders/Objects/Cracks.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -85,6 +85,7 @@
     {"id":{"name":"variable_init","path":"scripts/variable_init/variable_init.yy",},},
     {"id":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
     {"id":{"name":"SprSplash","path":"sprites/SprSplash/SprSplash.yy",},},
+    {"id":{"name":"SprLogoDemo","path":"sprites/SprLogoDemo/SprLogoDemo.yy",},},
     {"id":{"name":"Level7","path":"rooms/Level7/Level7.yy",},},
   ],
   "RoomOrderNodes": [

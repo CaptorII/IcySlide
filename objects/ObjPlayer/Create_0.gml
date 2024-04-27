@@ -17,6 +17,11 @@ destination = vector2(0, 0);
 
 //detect swipes
 global.swipe_margin = 45;
+drag_start_x = -1;
+drag_start_y = -1;
+drag_end_x = -1;
+drag_end_y = -1;
+
 
 //sprite control
 face = 3;

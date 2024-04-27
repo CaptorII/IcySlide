@@ -1,6 +1,7 @@
 function level_complete(){
 	if (global.current_flag_count != global.flag_count) {
 		show_debug_message("not enough flags gathered");
+		return false;
 	} else {
 		show_debug_message("collected all flags");
 		show_debug_message("moves: " + string((global.moves_in_level + 1)));
