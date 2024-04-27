@@ -8,8 +8,15 @@ k_left = 0;
 k_right = 0;
 k_down = 0;
 k_up = 0;
+move_left = false;
+move_right = false;
+move_down = false;
+move_up = false;
 moving = false;
 destination = vector2(0, 0);
+
+//detect swipes
+global.swipe_margin = 45;
 
 //sprite control
 face = 3;
