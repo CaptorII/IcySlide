@@ -6,6 +6,7 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Objects","order":9,"path":"folders/Objects.yy",},
     {"name":"Buttons","order":2,"path":"folders/Objects/Buttons.yy",},
+    {"name":"LevelSelectButtons","order":5,"path":"folders/Objects/Buttons/LevelSelectButtons.yy",},
     {"name":"Cracks","order":12,"path":"folders/Objects/Cracks.yy",},
     {"name":"HUD","order":6,"path":"folders/Objects/HUD.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
@@ -18,7 +19,6 @@
     {"name":"Cracks","order":10,"path":"folders/Sprites/Cracks.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"LevelSelectButtons","order":5,"path":"folders/Objects/Buttons/LevelSelectButtons.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Level3","order":5,"path":"rooms/Level3/Level3.yy",},
@@ -71,6 +71,6 @@
     {"name":"variable_init","order":4,"path":"scripts/variable_init/variable_init.yy",},
     {"name":"Level10","order":8,"path":"rooms/Level10/Level10.yy",},
     {"name":"SprSplash","order":8,"path":"sprites/SprSplash/SprSplash.yy",},
-    {"name":"SprLogoDemo","order":12,"path":"sprites/SprLogoDemo/SprLogoDemo.yy",},
+    {"name":"SprLogo","order":12,"path":"sprites/SprLogo/SprLogo.yy",},
   ],
 }

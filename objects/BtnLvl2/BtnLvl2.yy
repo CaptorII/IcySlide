@@ -32,7 +32,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "SprLvlBtn",
+    "path": "sprites/SprLvlBtn/SprLvlBtn.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "SprLogoDemo",
-  "bbox_bottom": 270,
-  "bbox_left": 0,
-  "bbox_right": 334,
-  "bbox_top": 0,
+  "name": "SprLogo",
+  "bbox_bottom": 417,
+  "bbox_left": 48,
+  "bbox_right": 483,
+  "bbox_top": 75,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5e62ed8b-5cc1-48d4-9764-19f52c7138c5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"edc516e8-fcd8-405f-a753-e7f4ed0c3829",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 271,
+  "height": 960,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dabe6cfc-c3ba-4c42-b77c-d9ced91e3209","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"887c3bf7-d33a-4741-8a07-a0174290c6cb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "SprLogoDemo",
+    "name": "SprLogo",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5e62ed8b-5cc1-48d4-9764-19f52c7138c5","path":"sprites/SprLogoDemo/SprLogoDemo.yy",},},},"Disabled":false,"id":"fbb8b482-032f-47a7-9ebb-4185308f1e87","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"edc516e8-fcd8-405f-a753-e7f4ed0c3829","path":"sprites/SprLogo/SprLogo.yy",},},},"Disabled":false,"id":"b1eec98f-e9bc-4c82-9e86-0d74da4f9cd7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 335,
+  "width": 540,
 }
