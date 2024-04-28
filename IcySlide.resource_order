@@ -29,6 +29,7 @@
     {"name":"LevelSelectMenu","order":10,"path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},
     {"name":"StartMenu","order":1,"path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"destination_reached","order":2,"path":"scripts/destination_reached/destination_reached.yy",},
+    {"name":"FntTitle","order":1,"path":"fonts/FntTitle/FntTitle.yy",},
     {"name":"TsIce","order":5,"path":"tilesets/TsIce/TsIce.yy",},
     {"name":"ObjCrack2","order":1,"path":"objects/ObjCrack2/ObjCrack2.yy",},
     {"name":"SprFoxDown","order":3,"path":"sprites/SprFoxDown/SprFoxDown.yy",},

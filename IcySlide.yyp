@@ -49,6 +49,7 @@
     {"id":{"name":"LevelSelectMenu","path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},},
     {"id":{"name":"StartMenu","path":"rooms/StartMenu/StartMenu.yy",},},
     {"id":{"name":"destination_reached","path":"scripts/destination_reached/destination_reached.yy",},},
+    {"id":{"name":"FntTitle","path":"fonts/FntTitle/FntTitle.yy",},},
     {"id":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},},
     {"id":{"name":"ObjCrack2","path":"objects/ObjCrack2/ObjCrack2.yy",},},
     {"id":{"name":"SprFoxDown","path":"sprites/SprFoxDown/SprFoxDown.yy",},},
