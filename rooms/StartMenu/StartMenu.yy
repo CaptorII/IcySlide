@@ -11,6 +11,7 @@
     {"name":"inst_1E29B878","path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"inst_6683DAC6","path":"rooms/StartMenu/StartMenu.yy",},
     {"name":"inst_100C13D8","path":"rooms/StartMenu/StartMenu.yy",},
+    {"name":"inst_6F8F8A45","path":"rooms/StartMenu/StartMenu.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E29B878","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjBtnQuit","path":"objects/ObjBtnQuit/ObjBtnQuit.yy",},"properties":[],"rotation":0.0,"scaleX":1.64,"scaleY":1.0,"x":256.0,"y":800.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6683DAC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjBtnOptions","path":"objects/ObjBtnOptions/ObjBtnOptions.yy",},"properties":[],"rotation":0.0,"scaleX":1.64,"scaleY":1.0,"x":256.0,"y":704.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_100C13D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjBtnLevel","path":"objects/ObjBtnLevel/ObjBtnLevel.yy",},"properties":[],"rotation":0.0,"scaleX":2.28,"scaleY":1.0,"x":256.0,"y":608.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F8F8A45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_44F69A3B","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"SprLogo","path":"sprites/SprLogo/SprLogo.yy",},"x":0.0,"y":0.0,},

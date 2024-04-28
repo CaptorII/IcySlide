@@ -8,9 +8,9 @@ k_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 if (!moving) {
 	if (k_right || move_right) {
 		face = 0;
+		move_right = false;
 		if (place_free(x + GRID_SIZE, y)) {
 			moving = true;
-			move_right = false;
 			destination = vector2(x + GRID_SIZE, y);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
@@ -22,9 +22,9 @@ if (!moving) {
 		}		
 	} else if (k_up || move_up) {
 		face = 1;
+		move_up = false;
 		if (place_free(x, y - GRID_SIZE)) {
 			moving = true;
-			move_up = false;
 			destination = vector2(x, y - GRID_SIZE);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
@@ -35,10 +35,10 @@ if (!moving) {
 			x_speed = 0;
 		}
 	} else if (k_left || move_left) {
-		face = 2;
+		face = 2;	
+		move_left = false;
 		if (place_free(x - GRID_SIZE, y)) {
 			moving = true;
-			move_left = false;
 			destination = vector2(x - GRID_SIZE, y);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
@@ -50,9 +50,9 @@ if (!moving) {
 		}		
 	} else if (k_down || move_down) {
 		face = 3;
+		move_down = false;
 		if (place_free(x, y + GRID_SIZE)) {
 			moving = true;
-			move_down = false;
 			destination = vector2(x, y + GRID_SIZE);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
