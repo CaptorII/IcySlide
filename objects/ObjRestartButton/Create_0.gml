@@ -1,8 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-
-
-
-
-
+virtual_key_add(RESOLUTION_W - 64, RESOLUTION_H - 64, 64, 64, vk_enter);

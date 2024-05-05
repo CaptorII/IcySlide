@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2023.11.1.129",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"IcySlide",
   "resources":[
@@ -103,6 +103,7 @@
     {"id":{"name":"SprRock","path":"sprites/SprRock/SprRock.yy",},},
     {"id":{"name":"SprSlidingRock","path":"sprites/SprSlidingRock/SprSlidingRock.yy",},},
     {"id":{"name":"SprSplash","path":"sprites/SprSplash/SprSplash.yy",},},
+    {"id":{"name":"SprStars","path":"sprites/SprStars/SprStars.yy",},},
     {"id":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},},
   ],
   "resourceType":"GMProject",
