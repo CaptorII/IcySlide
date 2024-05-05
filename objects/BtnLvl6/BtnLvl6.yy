@@ -7,7 +7,7 @@
   "managed":true,
   "name":"BtnLvl6",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBtnLvlParent","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"05",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBtnLvlParent","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"06",},
   ],
   "parent":{
     "name":"LevelSelectButtons",
