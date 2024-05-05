@@ -63,6 +63,7 @@
     {"id":{"name":"FntMain","path":"fonts/FntMain/FntMain.yy",},},
     {"id":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},},
     {"id":{"name":"Level9","path":"rooms/Level9/Level9.yy",},},
+    {"id":{"name":"Mainmenubackground","path":"rooms/Mainmenubackground/Mainmenubackground.yy",},},
     {"id":{"name":"ObjMenuButton","path":"objects/ObjMenuButton/ObjMenuButton.yy",},},
     {"id":{"name":"BtnLvl6","path":"objects/BtnLvl6/BtnLvl6.yy",},},
     {"id":{"name":"vector2","path":"scripts/vector2/vector2.yy",},},
@@ -117,6 +118,7 @@
     {"roomId":{"name":"Level10","path":"rooms/Level10/Level10.yy",},},
     {"roomId":{"name":"BlankLevelTemplate","path":"rooms/BlankLevelTemplate/BlankLevelTemplate.yy",},},
     {"roomId":{"name":"LevelSelectMenu","path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},},
+    {"roomId":{"name":"Mainmenubackground","path":"rooms/Mainmenubackground/Mainmenubackground.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

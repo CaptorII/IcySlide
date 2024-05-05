@@ -42,6 +42,7 @@
     {"name":"ObjButtonParent","order":3,"path":"objects/ObjButtonParent/ObjButtonParent.yy",},
     {"name":"ObjGame","order":3,"path":"objects/ObjGame/ObjGame.yy",},
     {"name":"Level9","order":9,"path":"rooms/Level9/Level9.yy",},
+    {"name":"Mainmenubackground","order":12,"path":"rooms/Mainmenubackground/Mainmenubackground.yy",},
     {"name":"ObjMenuButton","order":2,"path":"objects/ObjMenuButton/ObjMenuButton.yy",},
     {"name":"BtnLvl6","order":8,"path":"objects/BtnLvl6/BtnLvl6.yy",},
     {"name":"vector2","order":1,"path":"scripts/vector2/vector2.yy",},
