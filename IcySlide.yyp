@@ -96,6 +96,7 @@
     {"id":{"name":"SprIceTiles","path":"sprites/SprIceTiles/SprIceTiles.yy",},},
     {"id":{"name":"SprLogo","path":"sprites/SprLogo/SprLogo.yy",},},
     {"id":{"name":"SprLvlBtn","path":"sprites/SprLvlBtn/SprLvlBtn.yy",},},
+    {"id":{"name":"SprMenuBg","path":"sprites/SprMenuBg/SprMenuBg.yy",},},
     {"id":{"name":"SprMenuBtn","path":"sprites/SprMenuBtn/SprMenuBtn.yy",},},
     {"id":{"name":"SprResetBtn","path":"sprites/SprResetBtn/SprResetBtn.yy",},},
     {"id":{"name":"SprRock","path":"sprites/SprRock/SprRock.yy",},},
