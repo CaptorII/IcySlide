@@ -11,6 +11,7 @@
   "ResourceOrderSettings":[
     {"name":"FntTitle","order":1,"path":"fonts/FntTitle/FntTitle.yy",},
     {"name":"BtnLvl10","order":1,"path":"objects/BtnLvl10/BtnLvl10.yy",},
+    {"name":"BtnLvl11","order":11,"path":"objects/BtnLvl11/BtnLvl11.yy",},
     {"name":"BtnLvl2","order":2,"path":"objects/BtnLvl2/BtnLvl2.yy",},
     {"name":"BtnLvl3","order":3,"path":"objects/BtnLvl3/BtnLvl3.yy",},
     {"name":"BtnLvl4","order":4,"path":"objects/BtnLvl4/BtnLvl4.yy",},
@@ -40,6 +41,7 @@
     {"name":"ObjWall","order":7,"path":"objects/ObjWall/ObjWall.yy",},
     {"name":"Level1","order":1,"path":"rooms/Level1/Level1.yy",},
     {"name":"Level10","order":9,"path":"rooms/Level10/Level10.yy",},
+    {"name":"Level11","order":15,"path":"rooms/Level11/Level11.yy",},
     {"name":"Level2","order":4,"path":"rooms/Level2/Level2.yy",},
     {"name":"Level3","order":5,"path":"rooms/Level3/Level3.yy",},
     {"name":"Level4","order":8,"path":"rooms/Level4/Level4.yy",},
