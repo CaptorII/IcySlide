@@ -13,6 +13,7 @@ move_right = false;
 move_down = false;
 move_up = false;
 moving = false;
+last_position = vector2(0, 0);
 destination = vector2(0, 0);
 
 //detect swipes
@@ -32,4 +33,3 @@ sprite[3] = SprFoxDown;
 
 ice_tilemap = layer_tilemap_get_id(layer_get_id("IceTiles"));
 snow_tilemap = layer_tilemap_get_id(layer_get_id("SnowTiles"));
-goal = layer_tilemap_get_id(layer_get_id("FlagTiles"));

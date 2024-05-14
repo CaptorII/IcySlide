@@ -11,6 +11,7 @@ if (!moving) {
 		move_right = false;
 		if (place_free(x + GRID_SIZE, y)) {
 			moving = true;
+			last_position = vector2(x, y);
 			destination = vector2(x + GRID_SIZE, y);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
@@ -25,6 +26,7 @@ if (!moving) {
 		move_up = false;
 		if (place_free(x, y - GRID_SIZE)) {
 			moving = true;
+			last_position = vector2(x, y);
 			destination = vector2(x, y - GRID_SIZE);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
@@ -39,6 +41,7 @@ if (!moving) {
 		move_left = false;
 		if (place_free(x - GRID_SIZE, y)) {
 			moving = true;
+			last_position = vector2(x, y);
 			destination = vector2(x - GRID_SIZE, y);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = -ice_speed;
@@ -53,6 +56,7 @@ if (!moving) {
 		move_down = false;
 		if (place_free(x, y + GRID_SIZE)) {
 			moving = true;
+			last_position = vector2(x, y);
 			destination = vector2(x, y + GRID_SIZE);
 			if (tilemap_get_at_pixel(ice_tilemap, destination[0], destination[1])) {
 				cur_speed = ice_speed;
@@ -70,11 +74,6 @@ if (moving) {
 		x += x_speed;
 		y += y_speed;
 	} else {
-		if (tilemap_get_at_pixel(goal, x, y)) {
-			if (!level_complete()) {
-				destination[1] += GRID_SIZE;
-			}
-		}
 		//stop moving if on snow
 		if (tilemap_get_at_pixel(snow_tilemap, x, y)) {
 			//hit snow			
