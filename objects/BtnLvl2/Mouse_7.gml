@@ -1,3 +1,3 @@
 event_inherited();
 
-room_goto(Level2);
+room_goto(Level002);
