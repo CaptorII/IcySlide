@@ -10,6 +10,6 @@ function variable_init() {
 	global.previous_level = room;
 	global.next_level = room;
 	global.final_score = 999;
-	global.player_scores = array_create(11, 999);
-	global.par_scores = [5, 7, 2, 8, 7, 9, 12, 14, 17, 21, 7];
+	global.player_scores = array_create(12, 999);
+	global.par_scores = [0, 5, 7, 2, 8, 7, 9, 12, 14, 17, 21, 7];
 }
