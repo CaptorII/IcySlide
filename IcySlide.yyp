@@ -61,6 +61,7 @@
     {"id":{"name":"ObjEndFlag","path":"objects/ObjEndFlag/ObjEndFlag.yy",},},
     {"id":{"name":"ObjFlagDisplay","path":"objects/ObjFlagDisplay/ObjFlagDisplay.yy",},},
     {"id":{"name":"ObjGame","path":"objects/ObjGame/ObjGame.yy",},},
+    {"id":{"name":"ObjLevelMenuController","path":"objects/ObjLevelMenuController/ObjLevelMenuController.yy",},},
     {"id":{"name":"ObjMenuButton","path":"objects/ObjMenuButton/ObjMenuButton.yy",},},
     {"id":{"name":"ObjMoveDisplay","path":"objects/ObjMoveDisplay/ObjMoveDisplay.yy",},},
     {"id":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},},

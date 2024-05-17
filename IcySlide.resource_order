@@ -38,6 +38,7 @@
     {"name":"ObjCrackParent","order":4,"path":"objects/ObjCrackParent/ObjCrackParent.yy",},
     {"name":"ObjEndFlag","order":8,"path":"objects/ObjEndFlag/ObjEndFlag.yy",},
     {"name":"ObjGame","order":5,"path":"objects/ObjGame/ObjGame.yy",},
+    {"name":"ObjLevelMenuController","order":10,"path":"objects/ObjLevelMenuController/ObjLevelMenuController.yy",},
     {"name":"ObjMenuButton","order":1,"path":"objects/ObjMenuButton/ObjMenuButton.yy",},
     {"name":"ObjMoveDisplay","order":2,"path":"objects/ObjMoveDisplay/ObjMoveDisplay.yy",},
     {"name":"ObjPlayer","order":6,"path":"objects/ObjPlayer/ObjPlayer.yy",},
