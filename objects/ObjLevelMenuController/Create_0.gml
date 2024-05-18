@@ -3,9 +3,12 @@ var _button_array = [];
 for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
 	_button_array[_i] = instance_find(ObjBtnLvlParent, _i);
 }
-for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
-	var _current_high_score = global.player_scores[_i];
-	var _par = global.par_scores[_i];
+array_sort(_button_array, function(_e1, _e2) {
+	return real(_e1.btn_text) - real(_e2.btn_text);
+});
+for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {	
+	var _current_high_score = global.player_scores[_i + 1];
+	var _par = global.par_scores[_i + 1];
 	var _button = _button_array[_i];
 	if (_current_high_score == 999) {
 		star_array[_i][0] = 0;
