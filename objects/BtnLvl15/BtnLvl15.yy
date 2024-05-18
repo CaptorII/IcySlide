@@ -1,21 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"ObjBtnPlay",
+  "%Name":"BtnLvl15",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjBtnPlay",
+  "name":"BtnLvl15",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjButtonParent","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBtnLvlParent","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
   ],
   "parent":{
-    "name":"Buttons",
-    "path":"folders/Objects/Buttons.yy",
+    "name":"LevelSelectButtons",
+    "path":"folders/Objects/Buttons/LevelSelectButtons.yy",
   },
   "parentObjectId":{
-    "name":"ObjButtonParent",
-    "path":"objects/ObjButtonParent/ObjButtonParent.yy",
+    "name":"ObjBtnLvlParent",
+    "path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprButton",
-    "path":"sprites/SprButton/SprButton.yy",
+    "name":"SprLvlBtn",
+    "path":"sprites/SprLvlBtn/SprLvlBtn.yy",
   },
   "spriteMaskId":null,
   "visible":true,

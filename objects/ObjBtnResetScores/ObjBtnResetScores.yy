@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"ObjBtnPlay",
+  "%Name":"ObjBtnResetScores",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjBtnPlay",
+  "name":"ObjBtnResetScores",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjButtonParent","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
   ],
