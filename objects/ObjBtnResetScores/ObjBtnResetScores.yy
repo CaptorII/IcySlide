@@ -7,7 +7,7 @@
   "managed":true,
   "name":"ObjBtnResetScores",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjButtonParent","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjButtonParent","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjButtonParent/ObjButtonParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Reset Scores",},
   ],
   "parent":{
     "name":"Buttons",
