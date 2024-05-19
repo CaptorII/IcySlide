@@ -12,5 +12,5 @@ function variable_init() {
 	global.next_level = room;
 	global.final_score = 999;
 	global.player_scores = array_create(LEVEL_COUNT, 999);
-	global.par_scores = [0, 5, 7, 2, 8, 7, 9, 12, 14, 17, 21, 7, 11, 9, 6, 21, 30, 13, 6, 10, 8, 10, 10, 11, 23, 27, 11];
+	global.par_scores = [0, 5, 2, 7, 8, 6, 8, 7, 7, 12, 21, 9, 14, 9, 11, 17, 21, 6, 13, 30, 9, 10, 10, 11, 23, 27, 11];
 }
