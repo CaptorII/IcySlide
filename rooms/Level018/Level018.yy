@@ -49,14 +49,14 @@
           -10,55,-2,0,-5,-2147483648,-2,55,-3,0,6,46,-2147483648,-2147483648,46,55,55,-7,-2147483648,-2,55,2,-2147483648,
           46,-5,-2147483648,-2,55,-7,-2147483648,-2,55,-2,-2147483648,1,0,-4,-2147483648,-2,55,3,-2147483648,0,
           0,-3,-2147483648,7,0,55,55,-2147483648,46,-2147483648,46,-3,-2147483648,-2,55,-3,-2147483648,1,0,-3,
-          -2147483648,-2,55,-5,-2147483648,4,0,-2147483648,55,55,-5,-2147483648,15,0,-2147483648,55,55,0,-2147483648,
-          0,46,-2147483648,-2147483648,0,55,55,-2147483648,0,-4,-2147483648,1,0,-10,55,
+          -2147483648,-2,55,-5,-2147483648,4,0,-2147483648,55,55,-5,-2147483648,20,0,-2147483648,55,55,0,-2147483648,
+          0,46,-2147483648,-2147483648,0,55,55,-2147483648,0,-2147483648,-2147483648,46,-2147483648,0,-10,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":9,"TileCompressedData":[
           -10,0,15,34,20,21,33,22,21,45,0,0,16,47,24,0,40,25,-3,0,7,40,28,10,36,0,17,36,-4,0,77,16,2,20,1,24,0,
           0,34,21,29,8,47,47,24,0,0,16,24,0,16,4,28,25,0,0,18,30,23,29,25,0,32,0,0,32,0,32,0,17,20,26,0,0,17,20,
-          3,21,29,8,24,0,0,18,28,8,24,0,16,24,0,0,32,0,18,30,22,1,24,0,0,41,22,26,0,16,47,24,-3,0,6,40,30,33,29,
-          28,38,-10,0,
+          3,21,29,8,24,0,0,18,28,8,24,0,16,24,0,0,32,0,18,30,22,1,24,0,0,41,22,26,0,40,8,24,-3,0,6,40,30,45,0,
+          40,38,-10,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_10","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_10","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":8.0,"scaleY":1.0,"x":64.0,"y":0.0,},
@@ -88,7 +88,7 @@
   },
   "sequenceId":null,
   "tags":[
-    "18moves",
+    "par 6",
   ],
   "views":[
     {"hborder":288,"hport":960,"hspeed":-1,"hview":960,"inherit":false,"objectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"vborder":288,"visible":true,"vspeed":-1,"wport":540,"wview":540,"xport":0,"xview":0,"yport":0,"yview":0,},

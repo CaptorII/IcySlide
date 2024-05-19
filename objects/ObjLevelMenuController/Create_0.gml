@@ -11,7 +11,7 @@ for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
 	var _current_high_score = global.player_scores[_i + 1];
 	var _par = global.par_scores[_i + 1];
 	var _button = _button_array[_i];
-	show_debug_message(_button.btn_text);
+	//show_debug_message(_button.btn_text);
 	if (_current_high_score == 999) {
 		star_array[_i][0] = 0;
 	} else if (_current_high_score <= _par) {
