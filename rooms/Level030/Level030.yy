@@ -186,7 +186,7 @@
           46,0,-2147483648,46,46,0,-2147483648,-2147483648,46,0,46,-2147483648,-2147483648,55,55,-3,-2147483648,
           1,0,-10,-2147483648,-2,55,-3,-2147483648,2,0,46,-5,-2147483648,1,46,-3,-2147483648,-2,55,-5,-2147483648,
           2,0,46,-7,-2147483648,-2,55,-5,-2147483648,1,0,-8,-2147483648,-2,55,3,0,-2147483648,0,-3,-2147483648,
-          1,46,-7,-2147483648,-2,55,2,-2147483648,0,-4,-2147483648,1,46,-5,-2147483648,-2,0,-2,55,-9,0,1,46,-4,
+          1,46,-7,-2147483648,-2,55,2,-2147483648,0,-4,-2147483648,1,46,-5,-2147483648,-2,0,-2,55,-9,0,-2,46,-3,
           0,-17,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":16,"TileCompressedData":[
@@ -194,7 +194,7 @@
           0,18,28,28,8,24,0,40,28,8,2,36,0,32,0,19,33,27,0,0,40,10,36,0,0,18,28,25,0,32,0,32,0,32,-3,0,25,16,24,
           0,0,32,0,32,0,32,0,41,33,27,0,0,34,1,24,0,0,41,33,39,0,32,-3,0,8,17,36,0,18,28,10,20,36,-4,0,17,32,0,
           43,33,13,30,22,26,0,16,4,30,23,33,45,0,32,-3,0,9,32,0,40,38,0,40,38,0,32,-3,0,6,32,0,34,20,3,36,-5,0,
-          25,34,3,20,36,0,32,0,40,8,47,2,20,36,0,34,21,29,8,4,38,0,32,0,0,40,-3,28,10,30,33,29,38,0,40,38,0,0,
+          25,34,3,20,36,0,32,0,40,8,47,2,20,36,0,34,21,29,28,12,38,0,32,0,0,40,-3,28,10,30,33,29,38,0,0,44,0,0,
           32,-15,0,1,44,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
