@@ -1,5 +1,5 @@
 if (!is_colliding) {
-	if (image_index == 2) { // when fully cracked
+	if (image_index == (image_number - 2)) { // when fully cracked
 		fall_in_water(other);
 	}
 	image_index++;

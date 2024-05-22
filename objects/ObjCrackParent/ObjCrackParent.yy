@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprCrack1",
-    "path":"sprites/SprCrack1/SprCrack1.yy",
+    "name":"SprTwoStageCrack1",
+    "path":"sprites/SprTwoStageCrack1/SprTwoStageCrack1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

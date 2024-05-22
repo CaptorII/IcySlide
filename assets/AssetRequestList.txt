@@ -1,2 +1,3 @@
 Requested Assets:
-Nobody here but us chickens
+1. Menu button background (make 64x64 and Gamemaker will slice it to be resizeable)
+2. Locked level icon (64x64) (suggestion: make simple animation for unlocking?)
