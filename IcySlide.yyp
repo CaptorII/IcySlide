@@ -26,7 +26,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.0.137",
+    "IDEVersion":"2024.4.1.152",
   },
   "name":"IcySlide",
   "resources":[
@@ -148,6 +148,10 @@
     {"id":{"name":"Level038","path":"rooms/Level038/Level038.yy",},},
     {"id":{"name":"Level039","path":"rooms/Level039/Level039.yy",},},
     {"id":{"name":"Level040","path":"rooms/Level040/Level040.yy",},},
+    {"id":{"name":"Level041","path":"rooms/Level041/Level041.yy",},},
+    {"id":{"name":"Level042","path":"rooms/Level042/Level042.yy",},},
+    {"id":{"name":"Level043","path":"rooms/Level043/Level043.yy",},},
+    {"id":{"name":"Level044","path":"rooms/Level044/Level044.yy",},},
     {"id":{"name":"LevelSelectMenu","path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},},
     {"id":{"name":"OptionsMenu","path":"rooms/OptionsMenu/OptionsMenu.yy",},},
     {"id":{"name":"ScoreScreen","path":"rooms/ScoreScreen/ScoreScreen.yy",},},
@@ -237,6 +241,10 @@
     {"roomId":{"name":"Level038","path":"rooms/Level038/Level038.yy",},},
     {"roomId":{"name":"Level039","path":"rooms/Level039/Level039.yy",},},
     {"roomId":{"name":"Level040","path":"rooms/Level040/Level040.yy",},},
+    {"roomId":{"name":"Level042","path":"rooms/Level042/Level042.yy",},},
+    {"roomId":{"name":"Level044","path":"rooms/Level044/Level044.yy",},},
+    {"roomId":{"name":"Level043","path":"rooms/Level043/Level043.yy",},},
+    {"roomId":{"name":"Level041","path":"rooms/Level041/Level041.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
