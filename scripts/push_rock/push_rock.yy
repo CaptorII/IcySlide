@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"push_rock",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"push_rock",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
