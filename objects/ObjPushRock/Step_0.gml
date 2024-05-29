@@ -2,7 +2,7 @@ if (moving) {
 	if (x != destination_x || y != destination_y) {
 		x += x_speed;
 		y += y_speed;
-		show_debug_message("Destination: (" + string(destination_x) + ", " + string(destination_y) + ") Current pos: (" + string(x) + ", " + string(y) + ")");
+		//show_debug_message("Destination: (" + string(destination_x) + ", " + string(destination_y) + ") Current pos: (" + string(x) + ", " + string(y) + ")");
 	} else {
 		//stop moving if on snow
 		if (tilemap_get_at_pixel(snow_tilemap, x, y)) {
