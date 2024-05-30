@@ -71,9 +71,20 @@ if (!moving) {
 
 if (moving) {
 	if (x != destination[0] || y != destination[1]) {
-		x += x_speed;
-		y += y_speed;		
-		show_debug_message("Destination: (" + string(destination[0]) + ", " + string(destination[1]) + ") Current pos: (" + string(x) + ", " + string(y) + ")");
+		// go back one space if colliding with certain objects
+		if (x - x_speed == destination[0] && y == destination[1]) {
+			x -= x_speed;
+			moving = false;
+			global.moves_in_level++;
+		} else if (y - y_speed == destination[1] && x == destination[0]) {
+			y -= y_speed;
+			moving = false;
+			global.moves_in_level++;
+		} else {
+			// move normally if not colliding
+			x += x_speed;
+			y += y_speed;
+		}
 	} else {
 		//stop moving if on snow
 		if (tilemap_get_at_pixel(snow_tilemap, x, y)) {

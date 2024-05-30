@@ -1,4 +1,4 @@
-if (moving) {
+if (moving && place_free(destination_x, destination_y)) {
 	if (x != destination_x || y != destination_y) {
 		x += x_speed;
 		y += y_speed;
