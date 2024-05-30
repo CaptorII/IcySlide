@@ -21,6 +21,8 @@ for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
 	} else { 
 		star_array[_i][0] = 1;
 	}
-	star_array[_i][1] = _button.x;
+	global.player_stars[_i + 1] = star_array[_i][0]; // save number of stars for this level	
+	global.player_stars_total += star_array[_i][0]; // add number of stars for this level to the total
+	star_array[_i][1] = _button.x; // set co-ords for star sprite for this level
 	star_array[_i][2] = _button.y;
 }

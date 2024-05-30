@@ -15,9 +15,9 @@ draw_text(RESOLUTION_W / 2, 250, "Par: " + string(_par));
 //set which star image to display depending on best score
 draw_self();
 image_speed = 0;
-if (_current_high_score <= _par) {
+if (global.final_score <= _par) {
 	image_index = 3;
-} else if (_current_high_score <= (_par * 1.5)) {
+} else if (global.final_score <= (_par * 1.5)) {
 	image_index = 2;
 } else { 
 	image_index = 1;
