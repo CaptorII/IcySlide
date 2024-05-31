@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"BtnLvl44",
+  "%Name":"BtnLvl48",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"BtnLvl44",
+  "name":"BtnLvl48",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBtnLvlParent","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"44",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjBtnLvlParent","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"propertyId":{"name":"btn_text","path":"objects/ObjBtnLvlParent/ObjBtnLvlParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"48",},
   ],
   "parent":{
     "name":"LevelSelectButtons",
