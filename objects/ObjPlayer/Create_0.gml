@@ -23,7 +23,6 @@ drag_start_y = -1;
 drag_end_x = -1;
 drag_end_y = -1;
 
-
 //sprite control
 face = 3;
 sprite[0] = SprFoxRight;

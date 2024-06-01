@@ -26,3 +26,12 @@ for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
 	star_array[_i][1] = _button.x; // set co-ords for star sprite for this level
 	star_array[_i][2] = _button.y;
 }
+
+//detect swipes for scrolling screen
+global.swipe_margin = 45;
+drag_offset_x = 0;
+drag_offset_y = 0;
+drag_pos_x = 0;
+drag_pos_y = 0;
+flick_vel_x = 0.0;
+flick_vel_y = 0.0;
