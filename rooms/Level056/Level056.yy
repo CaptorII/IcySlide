@@ -199,12 +199,12 @@
           55,55,-2147483648,0,-3,-2147483648,-2,0,-5,-2147483648,-2,0,-2,55,-7,0,7,46,0,46,0,46,0,46,-17,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":16,"TileCompressedData":[
-          -20,0,9,43,22,21,45,0,34,36,0,46,-4,0,10,34,36,0,0,40,25,0,43,29,25,-3,0,17,42,0,0,40,30,37,0,0,17,36,
-          0,0,41,45,0,35,39,-4,0,7,17,36,0,40,25,0,42,-3,0,1,32,-3,0,46,35,33,9,24,0,0,17,21,39,0,0,34,3,36,0,
-          0,32,0,40,10,36,0,40,25,0,0,35,29,8,24,0,0,41,37,0,40,10,36,0,41,22,20,26,0,40,25,-3,0,13,41,45,0,40,
-          30,37,0,40,8,2,36,0,32,-8,0,59,17,36,0,40,8,6,33,27,0,0,35,33,37,0,0,34,5,38,0,0,16,24,0,32,0,0,32,0,
-          41,22,20,5,38,0,0,43,13,30,22,26,0,0,32,0,0,40,28,38,0,42,0,0,32,0,16,24,0,0,32,-5,0,11,35,39,0,43,15,
-          33,13,38,0,0,41,-5,33,1,39,-3,0,3,44,0,44,-17,0,1,46,
+          -20,0,7,43,22,21,45,0,34,36,-6,0,10,34,36,0,0,40,25,0,43,29,25,-3,0,17,42,0,0,40,30,37,0,0,17,36,0,0,
+          41,45,0,35,39,-4,0,7,17,36,0,40,25,0,42,-3,0,1,32,-3,0,46,35,33,9,24,0,0,17,21,39,0,0,34,3,36,0,0,32,
+          0,40,10,36,0,40,25,0,0,35,29,8,24,0,0,41,37,0,40,10,36,0,41,22,20,26,0,40,25,-3,0,13,41,45,0,40,30,37,
+          0,40,8,2,36,0,32,-8,0,59,17,36,0,40,8,6,33,27,0,0,35,33,37,0,0,34,5,38,0,0,16,24,0,32,0,0,32,0,41,22,
+          20,5,38,0,0,43,13,30,22,26,0,0,32,0,0,40,28,38,0,42,0,0,32,0,16,24,0,0,32,-5,0,11,35,39,0,43,15,33,13,
+          38,0,0,41,-5,33,1,39,-3,0,3,44,0,44,-18,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_35","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_35","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":15.0,"scaleY":1.0,"x":64.0,"y":0.0,},

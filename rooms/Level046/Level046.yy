@@ -109,9 +109,9 @@
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":10,"TileCompressedData":[
           -11,0,7,43,22,36,0,35,33,37,-4,0,67,16,24,0,32,0,17,36,0,0,35,29,10,21,31,23,29,25,0,0,32,0,40,25,0,
           44,0,32,0,0,19,45,0,41,37,0,34,26,0,0,32,0,42,0,17,20,1,24,0,0,17,21,31,23,29,8,47,24,0,0,40,25,0,32,
-          0,40,12,38,-3,0,6,17,20,3,36,0,32,-3,0,17,43,9,47,47,2,20,26,0,46,0,0,40,12,28,12,28,25,-5,0,6,32,0,
-          44,0,19,45,-4,0,5,17,36,0,34,26,-4,0,6,34,1,24,0,16,24,-3,0,18,34,1,4,30,22,5,30,37,0,0,40,8,24,0,16,
-          24,0,32,-3,0,7,40,10,20,5,30,33,39,-4,0,3,40,28,38,-14,0,
+          0,40,12,38,-3,0,6,17,20,3,36,0,32,-3,0,7,43,9,47,47,2,20,26,-4,0,6,40,12,28,12,28,25,-5,0,6,32,0,44,
+          0,19,45,-4,0,5,17,36,0,34,26,-4,0,6,34,1,24,0,16,24,-3,0,18,34,1,4,30,22,5,30,37,0,0,40,8,24,0,16,24,
+          0,32,-3,0,7,40,10,20,5,30,33,39,-4,0,3,40,28,38,-14,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_27","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":1.0,"x":64.0,"y":0.0,},

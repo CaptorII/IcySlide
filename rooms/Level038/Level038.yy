@@ -113,8 +113,8 @@
           -11,0,6,35,33,37,0,35,45,-4,0,27,32,0,17,20,26,0,34,36,0,0,17,20,1,47,24,0,18,38,0,0,40,28,12,28,10,
           21,39,-5,0,4,32,0,40,25,-6,0,4,32,0,0,32,-4,0,7,34,20,7,33,22,3,36,-3,0,11,18,28,38,0,16,4,30,45,0,0,
           32,-3,0,2,16,24,-4,0,7,17,36,0,35,29,10,36,-3,0,8,40,30,33,27,0,18,30,45,-5,0,3,32,0,32,-4,0,7,35,33,
-          23,39,0,19,45,-3,0,48,32,0,32,0,43,27,0,42,0,0,17,21,31,37,0,17,20,26,0,0,16,24,0,32,0,18,28,25,0,0,
-          16,24,0,17,20,26,0,32,0,0,40,30,33,29,28,38,0,44,-11,0,
+          23,39,0,19,45,-3,0,28,32,0,32,0,43,27,0,42,0,0,17,21,31,37,0,17,20,26,0,0,40,25,0,32,0,18,28,25,-3,0,
+          7,32,0,17,20,26,0,32,-3,0,7,41,33,29,28,38,0,44,-11,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_16","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_16","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":1.0,"x":64.0,"y":0.0,},

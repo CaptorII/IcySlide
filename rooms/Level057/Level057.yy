@@ -121,7 +121,7 @@
           -2,0,-2,55,-8,0,3,46,0,46,-3,0,-17,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":16,"TileCompressedData":[
-          -18,0,11,43,33,37,0,34,21,33,22,21,33,37,-4,0,29,42,0,0,19,33,9,24,0,16,24,0,17,36,0,46,0,32,0,35,39,
+          -18,0,11,43,33,37,0,34,21,33,22,21,33,37,-4,0,13,42,0,0,19,33,9,24,0,16,24,0,17,36,-3,0,13,32,0,35,39,
           0,16,6,33,9,2,20,1,24,-3,0,14,41,23,39,0,35,29,25,0,40,28,8,47,2,36,-3,0,86,44,0,34,26,0,41,37,0,0,16,
           47,47,24,0,0,42,0,34,1,2,36,0,19,33,22,5,28,8,24,0,0,17,20,1,47,47,2,21,39,0,16,24,0,16,24,0,0,16,47,
           4,28,8,47,24,0,34,1,2,21,29,25,0,0,18,28,25,0,18,28,10,20,1,47,4,38,0,32,0,0,32,0,17,21,39,0,16,-3,47,
