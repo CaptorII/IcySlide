@@ -4,6 +4,7 @@ function variable_init() {
 	#macro LAST_LEVEL Level060
 	#macro GRID_SIZE 64
 	#macro LEVEL_COUNT 61 // must be number of levels implemented + 1
+	#macro SAVE_FILE "highscores.json"
 	global.moves_in_level = 0;
 	global.current_flag_count = 0;
 	global.flag_count = 0;

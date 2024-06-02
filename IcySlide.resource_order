@@ -172,6 +172,7 @@
     {"name":"fall_in_water","order":1,"path":"scripts/fall_in_water/fall_in_water.yy",},
     {"name":"level_complete","order":2,"path":"scripts/level_complete/level_complete.yy",},
     {"name":"push_rock","order":5,"path":"scripts/push_rock/push_rock.yy",},
+    {"name":"save_game","order":6,"path":"scripts/save_game/save_game.yy",},
     {"name":"variable_init","order":3,"path":"scripts/variable_init/variable_init.yy",},
     {"name":"vector2","order":4,"path":"scripts/vector2/vector2.yy",},
     {"name":"SprCollectibleFlag","order":2,"path":"sprites/SprCollectibleFlag/SprCollectibleFlag.yy",},
