@@ -7,3 +7,7 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 //add text
 draw_text(10, 4, move_string);
+
+//draw level name at top
+draw_set_halign(fa_center);
+draw_text((RESOLUTION_W / 2), 4, level_name);
