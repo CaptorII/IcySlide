@@ -1,3 +1,2 @@
 Requested Assets:
-1. Game icon (192x192)
-2. Adaptive icon (432x432) (foreground and background separate)
+Nothing here but us chickens!
