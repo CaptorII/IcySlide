@@ -20,9 +20,10 @@ function load() {
 		buffer_delete(_buffer);
 		var _save_data = json_parse(_string);
 		
-		// load array from save
-		global.player_scores = _save_data[0];
-		
+		// load array from save, unless new levels have been added since last save
+		if (array_length(global.par_scores) == array_length(_save_data[0])) {
+			global.player_scores = _save_data[0];
+		}
 		show_debug_message("Game loaded" + _string);
 	}
 }

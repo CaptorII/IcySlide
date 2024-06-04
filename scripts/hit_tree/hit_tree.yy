@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"hit_tree",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hit_tree",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

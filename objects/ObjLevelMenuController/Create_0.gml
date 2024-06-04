@@ -7,7 +7,7 @@ for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
 //	return real(_e1.btn_text) - real(_e2.btn_text);
 //});
 array_sort(_button_array, true);
-for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {		
+for (var _i = 0; _i < instance_number(ObjBtnLvlParent); _i++;) {
 	var _current_high_score = global.player_scores[_i + 1];
 	var _par = global.par_scores[_i + 1];
 	var _button = _button_array[_i];
