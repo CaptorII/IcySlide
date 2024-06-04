@@ -3,6 +3,7 @@ function save() {
 	
 	// add array into _save_data:
 	_save_data[0] = global.player_scores;
+	_save_data[1] = global.par_scores;
 	
 	var _string = json_stringify(_save_data);
 	var _buffer = buffer_create(string_byte_length(_string) + 1,buffer_fixed, 1);
@@ -20,9 +21,11 @@ function load() {
 		buffer_delete(_buffer);
 		var _save_data = json_parse(_string);
 		
-		// load array from save, unless new levels have been added since last save
-		if (array_length(global.par_scores) == array_length(_save_data[0])) {
-			global.player_scores = _save_data[0];
+		// load array from save, unless pars have changed
+		if (array_length(_save_data) > 1) {
+			if (array_equals(global.par_scores, _save_data[1])) {
+				array_copy(global.player_scores, 0, _save_data[0], 0, array_length(_save_data[0]) -1);		
+			}
 		}
 		show_debug_message("Game loaded" + _string);
 	}

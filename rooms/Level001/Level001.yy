@@ -63,11 +63,12 @@
       ],"layers":[],"name":"LowerInstances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"SnowTiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SnowTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           -21,55,-2,0,-16,-2147483648,-2,55,-2,0,-16,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,
-          55,-18,-2147483648,-2,55,-5,-2147483648,1,46,-12,-2147483648,-2,55,2,-2147483648,0,-4,-2147483648,1,
-          0,-3,-2147483648,1,0,-4,-2147483648,5,0,-2147483648,-2147483648,55,55,-8,-2147483648,1,46,-9,-2147483648,
-          -2,55,-14,-2147483648,1,0,-3,-2147483648,-2,55,-18,-2147483648,-2,55,-5,-2147483648,-4,46,-9,-2147483648,
-          -2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,
-          -2,55,-18,-2147483648,-2,55,-18,-2147483648,-21,55,
+          55,-18,-2147483648,-2,55,-5,-2147483648,2,46,0,-11,-2147483648,-2,55,2,-2147483648,0,-4,-2147483648,
+          -3,0,2,-2147483648,0,-4,-2147483648,5,0,-2147483648,-2147483648,55,55,-5,-2147483648,4,0,-2147483648,
+          -2147483648,46,-9,-2147483648,-2,55,-14,-2147483648,1,0,-3,-2147483648,-2,55,-4,-2147483648,-2,0,-12,
+          -2147483648,-2,55,-5,-2147483648,-4,46,-9,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,
+          55,-18,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,
+          -21,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           -21,0,1,34,-16,20,4,36,0,0,16,-16,47,4,24,0,0,16,-16,47,4,24,0,0,16,-3,47,4,4,28,28,8,-9,47,13,24,0,

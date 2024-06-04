@@ -253,6 +253,7 @@
     {"id":{"name":"SprSlidingRock","path":"sprites/SprSlidingRock/SprSlidingRock.yy",},},
     {"id":{"name":"SprSplash","path":"sprites/SprSplash/SprSplash.yy",},},
     {"id":{"name":"SprStars","path":"sprites/SprStars/SprStars.yy",},},
+    {"id":{"name":"SprTree","path":"sprites/SprTree/SprTree.yy",},},
     {"id":{"name":"SprTwoStageCrack1","path":"sprites/SprTwoStageCrack1/SprTwoStageCrack1.yy",},},
     {"id":{"name":"SprTwoStageCrack2","path":"sprites/SprTwoStageCrack2/SprTwoStageCrack2.yy",},},
     {"id":{"name":"SprTwoStageCrack3","path":"sprites/SprTwoStageCrack3/SprTwoStageCrack3.yy",},},
