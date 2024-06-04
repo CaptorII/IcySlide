@@ -2,4 +2,7 @@ Art Assets:
 
 Programming Assets:
 1. Screenshot prompt when scoring below par
-2. Implement warp mechanic
+2. Update par level 26: 14
+3. Add credits button and room
+4. Implement warp mechanic
+5. Add version check prior to loading score data
