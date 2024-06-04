@@ -1,9 +1,5 @@
 Art Assets:
-1. Tree (64x64)
-2. Tree covered in snow (64x64)
 
 Programming Assets:
-1. Play button takes you to earliest level not completed
-2. Screenshot prompt when scoring below par
-3. Correct par level 13: 8
-4. Implement warp mechanic
+1. Screenshot prompt when scoring below par
+2. Implement warp mechanic

@@ -227,6 +227,7 @@
     {"name":"SprSlidingRock","order":14,"path":"sprites/SprSlidingRock/SprSlidingRock.yy",},
     {"name":"SprSplash","order":15,"path":"sprites/SprSplash/SprSplash.yy",},
     {"name":"SprStars","order":16,"path":"sprites/SprStars/SprStars.yy",},
+    {"name":"SprTree","order":22,"path":"sprites/SprTree/SprTree.yy",},
     {"name":"SprTwoStageCrack2","order":1,"path":"sprites/SprTwoStageCrack2/SprTwoStageCrack2.yy",},
     {"name":"SprTwoStageCrack3","order":2,"path":"sprites/SprTwoStageCrack3/SprTwoStageCrack3.yy",},
     {"name":"SprTwoStageCrack4","order":3,"path":"sprites/SprTwoStageCrack4/SprTwoStageCrack4.yy",},
