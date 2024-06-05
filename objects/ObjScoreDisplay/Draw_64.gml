@@ -12,6 +12,10 @@ draw_text(RESOLUTION_W / 2, 50, string(room_get_name(global.previous_level)));
 draw_text(RESOLUTION_W / 2, 150, "Moves: " + string(global.final_score));
 draw_text(RESOLUTION_W / 2, 200, "High score: " + string(_current_high_score));
 draw_text(RESOLUTION_W / 2, 250, "Par: " + string(_par));
+//include prompt to screenshot for beating par
+if (global.final_score < _par) {
+	draw_text(RESOLUTION_W / 2, 305, "Help us improve the game by taking a \n screenshot of this page and sending it to us!");
+}
 //set which star image to display depending on best score
 draw_self();
 image_speed = 0;
