@@ -1,7 +1,7 @@
 function variable_init() {
 	#macro RESOLUTION_W 540
 	#macro RESOLUTION_H 960
-	#macro LAST_LEVEL Level066
+	#macro LAST_LEVEL Level068
 	#macro GRID_SIZE 64
 	#macro LEVEL_COUNT 67 // must be number of levels implemented + 1
 	#macro SAVE_FILE "highscores.json"
