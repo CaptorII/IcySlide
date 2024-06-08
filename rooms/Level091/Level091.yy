@@ -38,6 +38,7 @@
     {"name":"inst_1E5370B_1","path":"rooms/Level091/Level091.yy",},
     {"name":"inst_4AB77129_1","path":"rooms/Level091/Level091.yy",},
     {"name":"inst_4CF34A62_1","path":"rooms/Level091/Level091.yy",},
+    {"name":"inst_11F42B2C","path":"rooms/Level091/Level091.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -76,6 +77,9 @@
         {"$GMRInstance":"","%Name":"inst_4CF34A62_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CF34A62_1","objectId":{"name":"ObjRedirectRotate","path":"objects/ObjRedirectRotate/ObjRedirectRotate.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjRedirectParent","path":"objects/ObjRedirectParent/ObjRedirectParent.yy",},"propertyId":{"name":"face","path":"objects/ObjRedirectParent/ObjRedirectParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":576.0,},
+        {"$GMRInstance":"","%Name":"inst_11F42B2C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_11F42B2C","objectId":{"name":"ObjRedirectRotate","path":"objects/ObjRedirectRotate/ObjRedirectRotate.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjRedirectParent","path":"objects/ObjRedirectParent/ObjRedirectParent.yy",},"propertyId":{"name":"face","path":"objects/ObjRedirectParent/ObjRedirectParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":640.0,},
       ],"layers":[],"name":"LowerInstances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"SnowTiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SnowTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":20,"SerialiseWidth":20,"TileCompressedData":[
           -21,55,-2,0,-16,-2147483648,-2,55,-2,0,-16,-2147483648,-2,55,-18,-2147483648,-2,55,-18,-2147483648,-2,
