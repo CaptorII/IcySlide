@@ -77,10 +77,10 @@
           55,55,-2147483648,0,-4,-2147483648,4,0,-2147483648,55,55,-8,46,-11,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":10,"TileCompressedData":[
-          -19,0,9,46,0,35,33,37,0,43,22,36,-3,0,18,32,0,41,37,0,18,30,37,0,0,41,37,0,19,33,27,0,32,-3,0,16,17,
-          21,39,0,17,21,39,0,0,34,1,24,0,34,1,24,-3,0,37,16,4,30,23,29,8,2,36,0,0,16,24,0,32,0,40,8,24,0,0,18,
-          30,22,3,36,0,18,38,0,0,32,0,18,28,10,21,39,-3,0,28,19,33,27,0,40,25,0,42,0,0,32,0,17,36,0,17,20,26,0,
-          0,41,33,29,30,33,29,28,38,-12,0,1,43,-7,33,1,45,
+          -21,0,7,35,33,37,0,43,22,36,-3,0,18,32,0,41,37,0,18,30,37,0,0,41,37,0,19,33,27,0,32,-3,0,16,17,21,39,
+          0,17,21,39,0,0,34,1,24,0,34,1,24,-3,0,37,16,4,30,23,29,8,2,36,0,0,16,24,0,32,0,40,8,24,0,0,18,30,22,
+          3,36,0,18,38,0,0,32,0,18,28,10,21,39,-3,0,28,19,33,27,0,40,25,0,42,0,0,32,0,17,36,0,17,20,26,0,0,41,
+          33,29,30,33,29,28,38,-21,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_48","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_48","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":1.0,"x":64.0,"y":0.0,},
