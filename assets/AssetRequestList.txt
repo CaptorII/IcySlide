@@ -1,6 +1,6 @@
 Art Assets:
 1. Cracked rock (modify rock)
 2. Explosive (64x64)
+3. Stalactite animation (64x64)
 
 Programming Assets:
-1. Implement warp mechanic
