@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprFallenSnow",
-    "path":"sprites/SprFallenSnow/SprFallenSnow.yy",
+    "name":"SprFallenSnow1",
+    "path":"sprites/SprFallenSnow1/SprFallenSnow1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

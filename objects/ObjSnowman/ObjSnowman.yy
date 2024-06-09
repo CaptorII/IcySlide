@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprPlayer",
-    "path":"sprites/SprPlayer/SprPlayer.yy",
+    "name":"SprSnowman",
+    "path":"sprites/SprSnowman/SprSnowman.yy",
   },
   "spriteMaskId":null,
   "visible":true,
