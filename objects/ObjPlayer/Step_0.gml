@@ -110,4 +110,4 @@ if (moving) {
 }
 
 //set sprite direction
-sprite_index = sprite[face];
+image_index = face;

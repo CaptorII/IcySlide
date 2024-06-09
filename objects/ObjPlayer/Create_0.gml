@@ -24,11 +24,8 @@ drag_end_x = -1;
 drag_end_y = -1;
 
 //sprite control
+image_speed = 0;
 face = 3;
-sprite[0] = SprFoxRight;
-sprite[1] = SprFoxUp;
-sprite[2] = SprFoxLeft;
-sprite[3] = SprFoxDown;
 
 ice_tilemap = layer_tilemap_get_id(layer_get_id("IceTiles"));
 snow_tilemap = layer_tilemap_get_id(layer_get_id("SnowTiles"));

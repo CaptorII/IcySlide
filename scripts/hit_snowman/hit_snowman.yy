@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"hit_snowman",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hit_snowman",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
