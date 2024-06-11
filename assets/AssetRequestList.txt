@@ -1,6 +1,43 @@
 Art Assets:
 1. Cracked rock (modify rock)
 2. Explosive (64x64)
-3. Stalactite animation (64x64)
+3. light
+4. stamina bar
 
 Programming Assets:
+
+stalactite:
+
+Stamina bar:
+when it hits 0, game over screen w/ Replay, skip, return to menu options, 0 stars and move counter
+size = 4*par to a maximum of 100
+
+dynamite:
+dynamite block
+destructable rock block
+
+destructable rock = solid unless dynamite explodes near it. 
+
+when dynamite ends on snow, nothing happens
+when dynamite collides with a solid object it explodes
+explosion will occur in the 8 spaces around it.
+If space = regular rock, nothing happens
+destructable rock = destoryed
+snowman = normal activation (melt)
+tree = normal activation and destroyed
+pushable rock = destroyed
+solid stalactite = destroyed
+under stalactite shadow = activates stalactite to fall
+dynamite over crack, moves to next stage (like player).
+dynamite into hole = disapears, no explosion
+dynamite onto move plate = same as rock/player
+dynamite onto tele pad = teleports and blocks pad from being used  until moved off. 
+dynamite into light = changes light to destoryed light solid object that takes up a space but will not activate from pad
+
+light: 
+on levels with light, visability = player + 2 spaces
+new pad: step on it to turn on lights
+lights = new solid item that turns on and illuminates itself + 3 spaces or turns off when pad not blocked by player/rock/dynamite
+
+Lantern: collect it to increase light radius around player by 1 space per lantern collected 
+illuminates itself + 1 space
