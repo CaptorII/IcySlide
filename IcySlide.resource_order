@@ -272,6 +272,7 @@
     {"name":"Level094","order":101,"path":"rooms/Level094/Level094.yy",},
     {"name":"Level095","order":102,"path":"rooms/Level095/Level095.yy",},
     {"name":"Level096","order":103,"path":"rooms/Level096/Level096.yy",},
+    {"name":"Level097","order":104,"path":"rooms/Level097/Level097.yy",},
     {"name":"Level102","order":65,"path":"rooms/Level102/Level102.yy",},
     {"name":"LevelSelectMenu","order":10,"path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},
     {"name":"OptionsMenu","order":11,"path":"rooms/OptionsMenu/OptionsMenu.yy",},
