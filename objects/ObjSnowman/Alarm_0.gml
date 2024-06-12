@@ -1,2 +1,2 @@
 // destroy snowman
-instance_destroy(object_index);
+instance_destroy(id);

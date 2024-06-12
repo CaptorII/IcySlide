@@ -7,7 +7,7 @@ function save() {
 	_save_data[2] = VERSION;
 	
 	var _string = json_stringify(_save_data);
-	var _buffer = buffer_create(string_byte_length(_string) + 1,buffer_fixed, 1);
+	var _buffer = buffer_create(string_byte_length(_string) + 1, buffer_fixed, 1);
 	buffer_write(_buffer, buffer_string, _string);
 	buffer_save(_buffer, SAVE_FILE);
 	buffer_delete(_buffer);
@@ -24,9 +24,13 @@ function load() {
 		
 		// load array from save, if conditions are met
 		if (array_length(_save_data) > 1) {
-			if (VERSION == _save_data[2]) {
-				if (array_equals(global.par_scores, _save_data[1])) {
-					array_copy(global.player_scores, 0, _save_data[0], 0, array_length(_save_data[0]) -1);
+			if (array_equals(global.par_scores, _save_data[1])) {
+				array_copy(global.player_scores, 0, _save_data[0], 0, array_length(_save_data[0]) -1);
+			} else { // if par scores have changed, only load scores where par is unchanged
+				for (var _i = 0; _i < array_length(_save_data[0]); _i++;) {
+					if (global.par_scores[_i] == _save_data[1][_i]) {
+						global.player_scores[_i] = _save_data[0][_i];
+					}
 				}
 			}
 		}

@@ -17,5 +17,5 @@ if (global.player_scores[1] != 999) {
 		}
 	}
 } else {
-	room_goto(Level001);
+	room_goto(Level555);
 }
