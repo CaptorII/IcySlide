@@ -1,13 +1,14 @@
 Art Assets:
 1. Light
-2. Level display cutout (40px tall, max 120px wide)
+2. Level display cutout (36px tall, 66-120px wide) (3-digit number: 25x52)
+3. Mini flag (28x28)
+4. Move icon (skate?) (28x28)
 
 Programming Assets:
-1. Implement stalactite
-2. Stamina bar:
+1. Stamina bar:
 when it hits 0, game over screen w/ Replay, skip, return to menu options, 0 stars and move counter
 size = 4*par to a maximum of 100
-3. Dynamite:
+2. Dynamite:
 destructible rock = solid unless dynamite explodes near it
 when dynamite ends on snow, nothing happens
 when dynamite collides with a solid object it explodes
@@ -24,9 +25,9 @@ dynamite into hole = splashes and vanishes, no explosion
 dynamite onto move plate = same as rock/player
 dynamite onto warp pad = teleports and blocks pad from being used until moved off
 dynamite into light = changes light to destroyed light solid object that takes up a space but will not activate from pad
-4. Light: 
+3. Light: 
 on levels with light, visibility = player + 2 spaces
 new pad: step on it to turn on lights
 lights = new solid item that turns on and illuminates itself + 3 spaces or turns off when pad not blocked by player/rock/dynamite
-5. Lantern: collect it to increase light radius around player by 1 space per lantern collected 
+4. Lantern: collect it to increase light radius around player by 1 space per lantern collected 
 illuminates itself + 1 space
