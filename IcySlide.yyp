@@ -181,6 +181,7 @@
     {"id":{"name":"ObjRestartButton","path":"objects/ObjRestartButton/ObjRestartButton.yy",},},
     {"id":{"name":"ObjScoreDisplay","path":"objects/ObjScoreDisplay/ObjScoreDisplay.yy",},},
     {"id":{"name":"ObjSnowman","path":"objects/ObjSnowman/ObjSnowman.yy",},},
+    {"id":{"name":"ObjStalactite","path":"objects/ObjStalactite/ObjStalactite.yy",},},
     {"id":{"name":"ObjTree","path":"objects/ObjTree/ObjTree.yy",},},
     {"id":{"name":"ObjTwoStageCrack1","path":"objects/ObjTwoStageCrack1/ObjTwoStageCrack1.yy",},},
     {"id":{"name":"ObjTwoStageCrack2","path":"objects/ObjTwoStageCrack2/ObjTwoStageCrack2.yy",},},

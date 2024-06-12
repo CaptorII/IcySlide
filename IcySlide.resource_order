@@ -158,6 +158,7 @@
     {"name":"ObjRestartButton","order":3,"path":"objects/ObjRestartButton/ObjRestartButton.yy",},
     {"name":"ObjScoreDisplay","order":9,"path":"objects/ObjScoreDisplay/ObjScoreDisplay.yy",},
     {"name":"ObjSnowman","order":22,"path":"objects/ObjSnowman/ObjSnowman.yy",},
+    {"name":"ObjStalactite","order":24,"path":"objects/ObjStalactite/ObjStalactite.yy",},
     {"name":"ObjTree","order":18,"path":"objects/ObjTree/ObjTree.yy",},
     {"name":"ObjTwoStageCrack1","order":9,"path":"objects/ObjTwoStageCrack1/ObjTwoStageCrack1.yy",},
     {"name":"ObjTwoStageCrack2","order":1,"path":"objects/ObjTwoStageCrack2/ObjTwoStageCrack2.yy",},
