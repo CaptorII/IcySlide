@@ -157,7 +157,7 @@
     {"name":"ObjWarp4B","order":7,"path":"objects/ObjWarp4B/ObjWarp4B.yy",},
     {"name":"ObjWarpParentA","order":8,"path":"objects/ObjWarpParentA/ObjWarpParentA.yy",},
     {"name":"ObjWarpParentB","order":9,"path":"objects/ObjWarpParentB/ObjWarpParentB.yy",},
-    {"name":"BlackLevelLong","order":96,"path":"rooms/BlackLevelLong/BlackLevelLong.yy",},
+    {"name":"BlankLevelLong","order":96,"path":"rooms/BlankLevelLong/BlankLevelLong.yy",},
     {"name":"CreditsScreen","order":72,"path":"rooms/CreditsScreen/CreditsScreen.yy",},
     {"name":"Level001","order":1,"path":"rooms/Level001/Level001.yy",},
     {"name":"Level002","order":5,"path":"rooms/Level002/Level002.yy",},
