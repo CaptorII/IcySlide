@@ -1,8 +1,5 @@
 Art Assets:
-1. Light
-2. Level display cutout (36px tall, 66-120px wide) (3-digit number: 25x52)
-3. Mini flag (28x28)
-4. Move icon (skate?) (28x28)
+
 
 Programming Assets:
 1. Stamina bar:
