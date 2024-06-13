@@ -137,7 +137,7 @@
       ],"layers":[],"name":"LowerInstances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"SnowTiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SnowTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":9,"TileCompressedData":[
           -10,55,-2,0,-3,46,13,-2147483648,46,55,55,0,46,0,-2147483648,-2147483648,0,-2147483648,55,55,-3,-2147483648,
-          -2,46,-2,-2147483648,-2,55,-2,-2147483648,1,46,-4,-2147483648,-2,55,-5,-2147483648,7,46,-2147483648,
+          -2,46,-2,-2147483648,-2,55,3,46,-2147483648,46,-4,-2147483648,-2,55,-5,-2147483648,7,46,-2147483648,
           55,55,-2147483648,-2147483648,0,-4,-2147483648,-2,55,3,-2147483648,46,0,-3,-2147483648,3,0,55,55,-3,
           -2147483648,1,0,-3,-2147483648,-2,55,-3,-2147483648,1,0,-3,-2147483648,-2,55,-3,-2147483648,26,46,-2147483648,
           46,-2147483648,55,55,-2147483648,-2147483648,46,-2147483648,-2147483648,0,-2147483648,55,55,0,-2147483648,
@@ -153,8 +153,8 @@
           46,-5,-2147483648,-2,55,1,46,-3,-2147483648,3,46,-2147483648,-2147483648,-10,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":40,"SerialiseWidth":9,"TileCompressedData":[
-          -10,0,2,35,45,-3,0,1,42,-3,0,61,32,0,35,33,33,11,36,0,0,17,21,39,0,0,16,24,0,0,16,24,0,34,21,29,25,0,
-          0,16,2,20,1,24,0,32,0,0,18,28,8,47,6,33,27,0,0,32,0,16,47,24,0,32,0,0,41,22,1,47,2,20,26,-3,0,41,16,
+          -10,0,2,35,45,-3,0,1,42,-3,0,16,32,0,35,33,33,11,36,0,0,41,23,39,0,0,16,24,-3,0,42,32,0,34,21,29,25,
+          0,0,34,3,20,1,24,0,32,0,0,18,28,8,47,6,33,27,0,0,32,0,16,47,24,0,32,0,0,41,22,1,47,2,20,26,-3,0,41,16,
           4,28,12,28,25,0,0,34,5,38,0,44,0,32,0,0,16,24,0,42,0,34,26,0,0,16,2,20,26,0,18,38,0,0,16,4,28,10,20,
           26,-3,0,25,16,24,0,40,8,2,36,0,0,16,2,36,0,16,47,24,0,0,40,8,6,33,9,47,24,-3,0,23,16,24,0,16,47,24,0,
           0,34,5,30,22,1,4,38,0,0,16,24,0,16,4,38,-3,0,33,18,30,22,1,24,0,42,0,0,32,0,16,4,30,22,26,0,0,17,20,
