@@ -8,8 +8,8 @@
   "name":"ObjRedirectParent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Redirection",
+    "path":"folders/Objects/Redirection.yy",
   },
   "parentObjectId":null,
   "persistent":false,

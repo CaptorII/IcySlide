@@ -1,1 +1,0 @@
-flag_string = "Flags: " + string(global.current_flag_count) + "/" + string(global.flag_count);

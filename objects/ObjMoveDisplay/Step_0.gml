@@ -1,1 +1,0 @@
-move_string = "Moves: " + string(global.moves_in_level);

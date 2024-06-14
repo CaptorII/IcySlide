@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ObjRedirectParent","path":"objects/ObjRedirectParent/ObjRedirectParent.yy",},"propertyId":{"name":"face","path":"objects/ObjRedirectParent/ObjRedirectParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Redirection",
+    "path":"folders/Objects/Redirection.yy",
   },
   "parentObjectId":{
     "name":"ObjRedirectParent",

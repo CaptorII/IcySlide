@@ -1,10 +1,10 @@
 function variable_init() {
 	#macro RESOLUTION_W 540
 	#macro RESOLUTION_H 960
-	#macro LAST_LEVEL Level095
+	#macro LAST_LEVEL Level099
 	#macro GRID_SIZE 64
 	#macro DEFAULT_SCORE 999
-	#macro LEVEL_COUNT 97 // must be number of levels implemented + 1
+	#macro LEVEL_COUNT 100 // must be number of levels implemented + 1
 	#macro SAVE_FILE "highscores.json"
 	#macro VERSION "0.2.96"
 	global.moves_in_level = 0;
@@ -21,4 +21,5 @@ function variable_init() {
 						6, 6, 9, 11, 11, 10, 18, 25, 32, 30, 4, 3, 5, 14, 12, 20, 20, 20, 20, 20];
 	global.player_stars = array_create(LEVEL_COUNT, 0);
 	global.player_stars_total = 0;
+	global.stamina = 100;
 }
