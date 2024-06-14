@@ -11,7 +11,7 @@ draw_text(50, 4, move_string);
 draw_sprite(SprMoveIcon, 0, 10, 5);
 
 // add stamina bar
-draw_sprite_ext(SprStaminaBar, 0, (RESOLUTION_W * 0.5) - 128, 6, 1, 0.7, 0, -1, 1);
+draw_sprite_ext(SprStaminaBar, stamina_step, (RESOLUTION_W * 0.5) - 128, 6, 1, 0.7, 0, -1, 1);
 
 // add level name at top
 draw_set_halign(fa_center);
