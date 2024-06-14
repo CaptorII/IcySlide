@@ -8,7 +8,10 @@ if (other.x == x && other.y == y) {
 	other.x_speed = _player_move[2];
 	other.y_speed = _player_move[3];
 	show_debug_message("New dest: (" + string(other.destination[0]) + ", " + string(other.destination[1]) + ")");
-	if (object_get_name(object_index) == "ObjRedirectRotate") {
+	if (object_get_name(object_index) == "ObjRedirectRotate") {		
+		if (face == 0) {
+			face = 4;
+		}
 		face -= 1;
 		image_index -= 1;
 	}
