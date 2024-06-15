@@ -68,14 +68,13 @@
         {"$GMRInstance":"","%Name":"inst_4249FCAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4249FCAD","objectId":{"name":"ObjEndFlag","path":"objects/ObjEndFlag/ObjEndFlag.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":256.0,"y":384.0,},
       ],"layers":[],"name":"LowerInstances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"SnowTiles","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"SnowTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":9,"TileCompressedData":[
-          -10,55,-7,46,-2,55,-7,46,-2,55,-4,-2147483648,-3,46,-2,55,-2,-2147483648,2,0,-2147483648,-3,46,-2,55,
-          -2,-2147483648,2,0,-2147483648,-3,46,-2,55,-2,-2147483648,1,0,-4,46,-2,55,4,-2147483648,0,0,-2147483648,
-          -3,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-10,55,
+          -10,55,-2,0,-5,46,-2,55,3,0,46,0,-4,46,-2,55,-4,-2147483648,-3,46,-2,55,-2,-2147483648,2,0,-2147483648,
+          -3,46,-2,55,-2,-2147483648,2,0,-2147483648,-3,46,-2,55,-2,-2147483648,1,0,-4,46,-2,55,9,-2147483648,
+          0,0,-2147483648,0,46,46,55,55,-7,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-2,55,-7,46,-10,
+          55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":9,"TileCompressedData":[
-          -10,0,1,43,-3,33,1,22,-3,20,-5,0,1,16,-3,47,6,0,34,20,36,0,16,-3,47,6,0,16,47,24,0,16,-3,47,6,0,16,47,
-          24,0,16,-3,47,6,0,16,47,24,0,16,-3,47,6,0,40,28,38,0,16,-3,47,-5,0,1,16,-3,47,2,0,34,-3,20,1,1,-3,47,
-          2,0,16,-7,47,-2,0,-7,47,-3,0,-6,47,-5,0,-4,47,2,0,16,-7,47,
+          -28,0,3,34,20,36,-6,0,3,16,47,24,-6,0,3,16,47,24,-6,0,3,16,47,24,-6,0,3,40,28,38,-68,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_76_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_76_1_1_1","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":7.0,"scaleY":1.0,"x":64.0,"y":0.0,},

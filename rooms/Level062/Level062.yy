@@ -135,10 +135,9 @@
           55,55,-3,0,-3,46,-2,0,-11,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":16,"SerialiseWidth":10,"TileCompressedData":[
-          -11,0,2,35,45,-5,0,19,43,37,0,44,0,35,33,22,36,0,0,44,0,0,34,26,0,40,25,-4,0,7,34,5,38,0,0,41,37,-3,
-          0,2,16,24,-4,0,6,17,36,0,0,16,24,-4,0,6,40,25,0,0,40,25,-5,0,1,32,-3,0,7,32,0,0,34,20,20,26,-3,0,10,
-          44,0,43,29,8,47,24,0,0,42,-4,0,8,40,28,38,0,0,41,22,36,-8,0,7,40,10,36,0,34,21,45,-4,0,5,40,30,33,29,
-          38,-3,0,1,42,-9,0,1,41,-7,33,1,45,
+          -23,0,4,35,33,22,36,-5,0,5,34,26,0,40,25,-4,0,7,34,5,38,0,0,41,37,-3,0,2,16,24,-4,0,6,17,36,0,0,16,24,
+          -4,0,6,40,25,0,0,40,25,-5,0,1,32,-3,0,7,32,0,0,34,20,20,26,-3,0,10,44,0,43,29,8,47,24,0,0,42,-4,0,8,
+          40,28,38,0,0,41,22,36,-8,0,7,40,10,36,0,34,21,45,-4,0,5,40,30,33,29,38,-22,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_42","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_42","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":9.0,"scaleY":1.0,"x":64.0,"y":0.0,},

@@ -114,10 +114,10 @@
           -3,-2147483648,1,0,-3,-2147483648,-2,55,3,-2147483648,0,-2147483648,-3,46,1,0,-3,-2147483648,-13,55,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":12,"TileCompressedData":[
-          -23,0,40,42,0,42,0,34,36,0,0,43,22,36,0,32,0,32,0,16,2,21,45,0,16,24,0,32,0,41,23,29,28,38,0,35,29,38,
-          0,44,0,0,32,-4,0,1,32,-6,0,1,32,-4,0,4,41,22,21,45,-3,0,1,19,-3,33,4,45,0,16,24,-4,0,1,32,-5,0,3,40,
-          30,37,-3,0,1,32,-7,0,1,32,-3,0,9,17,20,36,0,35,33,37,0,32,-3,0,9,40,12,30,22,26,0,17,20,26,-4,0,13,32,
-          0,40,30,33,29,8,24,0,0,43,33,39,-5,0,2,40,38,-13,0,
+          -25,0,9,42,0,34,36,0,0,43,22,36,-3,0,9,32,0,16,2,21,45,0,16,24,-3,0,9,41,23,29,28,38,0,35,29,38,-4,0,
+          1,32,-4,0,1,32,-6,0,1,32,-4,0,4,41,22,21,45,-3,0,1,19,-3,33,4,45,0,16,24,-4,0,1,32,-5,0,3,40,30,37,-3,
+          0,1,32,-7,0,1,32,-3,0,9,17,20,36,0,35,33,37,0,32,-3,0,9,40,12,30,22,26,0,17,20,26,-4,0,13,32,0,40,30,
+          33,29,8,24,0,0,43,33,39,-5,0,2,40,38,-13,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_72","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":12.0,"scaleY":1.0,"x":0.0,"y":0.0,},
