@@ -337,6 +337,8 @@
     {"name":"Level121","order":128,"path":"rooms/Level121/Level121.yy",},
     {"name":"Level122","order":129,"path":"rooms/Level122/Level122.yy",},
     {"name":"Level123","order":130,"path":"rooms/Level123/Level123.yy",},
+    {"name":"Level124","order":131,"path":"rooms/Level124/Level124.yy",},
+    {"name":"Level125","order":132,"path":"rooms/Level125/Level125.yy",},
     {"name":"LevelSelectMenu","order":10,"path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},
     {"name":"OptionsMenu","order":11,"path":"rooms/OptionsMenu/OptionsMenu.yy",},
     {"name":"ScoreScreen","order":15,"path":"rooms/ScoreScreen/ScoreScreen.yy",},

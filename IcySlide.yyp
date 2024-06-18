@@ -365,6 +365,8 @@
     {"id":{"name":"Level121","path":"rooms/Level121/Level121.yy",},},
     {"id":{"name":"Level122","path":"rooms/Level122/Level122.yy",},},
     {"id":{"name":"Level123","path":"rooms/Level123/Level123.yy",},},
+    {"id":{"name":"Level124","path":"rooms/Level124/Level124.yy",},},
+    {"id":{"name":"Level125","path":"rooms/Level125/Level125.yy",},},
     {"id":{"name":"LevelSelectMenu","path":"rooms/LevelSelectMenu/LevelSelectMenu.yy",},},
     {"id":{"name":"OptionsMenu","path":"rooms/OptionsMenu/OptionsMenu.yy",},},
     {"id":{"name":"ScoreScreen","path":"rooms/ScoreScreen/ScoreScreen.yy",},},
@@ -578,6 +580,8 @@
     {"roomId":{"name":"Level121","path":"rooms/Level121/Level121.yy",},},
     {"roomId":{"name":"Level122","path":"rooms/Level122/Level122.yy",},},
     {"roomId":{"name":"Level123","path":"rooms/Level123/Level123.yy",},},
+    {"roomId":{"name":"Level124","path":"rooms/Level124/Level124.yy",},},
+    {"roomId":{"name":"Level125","path":"rooms/Level125/Level125.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
