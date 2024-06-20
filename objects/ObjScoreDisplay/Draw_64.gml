@@ -16,7 +16,7 @@ draw_text(RESOLUTION_W / 2, 250, "Par: " + string(_par));
 if (global.final_score < _par) {
 	draw_text(RESOLUTION_W / 2, 305, "Help us improve the game by taking a \n screenshot of this page and sending it to us!");
 }
-//set which star image to display depending on best score
+//set which star image to display depending on your score
 draw_self();
 image_speed = 0;
 if (global.final_score <= _par) {

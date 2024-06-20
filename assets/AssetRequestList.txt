@@ -1,11 +1,11 @@
 Art Assets:
-
+1. World select menu (540px wide)
 
 Programming Assets:
-1. Stamina bar:
-when it hits 0, game over screen w/ Replay, skip, return to menu options, 0 stars and move counter
-size = 4*par to a maximum of 100
-2. Dynamite:
+1. Confirmation dialog when pressing menu or restart buttons mid-level
+2. Change crack to send you to game over screen instead of immediately restarting
+3. Change crack to increment when moving off instead of moving onto it
+4. Dynamite:
 destructible rock = solid unless dynamite explodes near it
 when dynamite ends on snow, nothing happens
 when dynamite collides with a solid object it explodes
@@ -22,9 +22,9 @@ dynamite into hole = splashes and vanishes, no explosion
 dynamite onto move plate = same as rock/player
 dynamite onto warp pad = teleports and blocks pad from being used until moved off
 dynamite into light = changes light to destroyed light solid object that takes up a space but will not activate from pad
-3. Light: 
+5. Light: 
 on levels with light, visibility = player + 2 spaces
 new pad: step on it to turn on lights
 lights = new solid item that turns on and illuminates itself + 3 spaces or turns off when pad not blocked by player/rock/dynamite
-4. Lantern: collect it to increase light radius around player by 1 space per lantern collected 
+6. Lantern: collect it to increase light radius around player by 1 space per lantern collected 
 illuminates itself + 1 space

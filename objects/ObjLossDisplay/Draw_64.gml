@@ -10,7 +10,9 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 //add text
 draw_text(RESOLUTION_W / 2, 50, string(room_get_name(global.previous_level)));
+
 draw_text(RESOLUTION_W / 2, 150, "Moves: " + string(_stamina));
+
 draw_set_font(FntTitle);
 draw_text(RESOLUTION_W / 2, 250, "GAME OVER");
 //set image of 0 stars
