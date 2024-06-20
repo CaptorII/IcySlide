@@ -120,9 +120,9 @@
     {"$GMRTileLayer":"","%Name":"IceTiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"IceTiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":15,"SerialiseWidth":15,"TileCompressedData":[
           -16,0,28,35,33,22,21,33,37,0,34,21,33,33,22,36,0,0,44,0,16,24,0,19,33,9,24,0,0,40,25,-3,0,26,35,29,10,
           20,26,0,16,6,33,37,0,44,0,0,34,26,0,40,8,2,20,5,38,0,17,36,-3,0,19,16,2,36,0,40,28,28,38,0,34,5,30,37,
-          0,0,40,12,30,37,-4,0,5,34,5,38,0,32,-3,0,18,44,0,19,45,0,46,0,40,25,0,34,26,0,0,42,0,34,26,-5,0,19,32,
+          0,0,40,12,30,37,-4,0,5,34,5,38,0,32,-3,0,4,44,0,19,45,-3,0,11,40,25,0,34,26,0,0,42,0,34,26,-5,0,19,32,
           0,16,24,0,0,41,22,1,2,21,33,22,21,33,31,23,29,38,-3,0,10,18,28,8,24,0,16,24,0,0,44,-4,0,8,43,27,0,40,
-          10,20,5,38,-4,0,1,42,-3,0,6,17,36,0,18,28,38,-5,0,8,32,0,0,43,29,30,33,39,-3,0,1,43,-3,33,1,39,-16,0,
+          10,20,5,38,-8,0,6,17,36,0,18,28,38,-8,0,5,43,29,30,33,39,-24,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_83","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.0,"scaleY":1.0,"x":64.0,"y":0.0,},

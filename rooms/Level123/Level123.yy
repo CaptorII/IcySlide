@@ -81,8 +81,7 @@
           24,0,0,17,36,0,35,39,0,0,32,0,41,33,9,24,0,34,1,6,33,27,-3,0,27,17,36,0,0,40,25,0,16,47,24,0,19,45,0,
           0,40,25,0,42,0,32,0,18,28,10,21,39,-4,0,42,41,22,7,33,27,0,44,0,40,25,0,42,0,0,42,0,40,25,0,32,0,0,42,
           0,17,20,26,0,0,41,37,0,17,20,26,0,34,3,21,29,12,38,-3,0,11,17,20,5,28,38,0,16,4,38,0,32,-4,0,3,16,47,
-          24,-3,0,6,18,38,0,34,3,36,-3,0,3,40,28,30,-3,33,6,39,0,34,1,4,38,-10,0,4,43,29,28,38,-3,0,1,43,-5,33,
-          1,45,-6,0,1,46,
+          24,-3,0,6,18,38,0,34,3,36,-3,0,3,40,28,30,-3,33,6,39,0,34,1,4,38,-10,0,4,43,29,28,38,-16,0,1,46,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TsIce","path":"tilesets/TsIce/TsIce.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"WallInstances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"","%Name":"inst_5FAB6C95_82","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5FAB6C95_82","objectId":{"name":"ObjWall","path":"objects/ObjWall/ObjWall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.0,"scaleY":1.0,"x":64.0,"y":0.0,},
@@ -113,6 +112,9 @@
     "Width":920,
   },
   "sequenceId":null,
+  "tags":[
+    "par 13",
+  ],
   "views":[
     {"hborder":288,"hport":960,"hspeed":-1,"hview":960,"inherit":false,"objectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"vborder":288,"visible":true,"vspeed":-1,"wport":540,"wview":540,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
