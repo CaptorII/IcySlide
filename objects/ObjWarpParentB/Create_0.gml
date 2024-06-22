@@ -1,3 +1,4 @@
+image_speed = 0;
 // set destination to warp to
 warp_dest_x = 0;
 warp_dest_y = 0;

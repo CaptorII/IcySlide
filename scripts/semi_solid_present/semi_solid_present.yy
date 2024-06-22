@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"semi_solid_present",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"semi_solid_present",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

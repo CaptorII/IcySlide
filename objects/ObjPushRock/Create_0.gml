@@ -1,6 +1,5 @@
 moving = false;
-destination_x = 0;
-destination_y = 0;
+destination = vector2(0, 0);
 face = 0;
 x_speed = 0;
 y_speed = 0;

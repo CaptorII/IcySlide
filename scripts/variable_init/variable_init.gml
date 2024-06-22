@@ -24,4 +24,5 @@ function variable_init() {
 	global.player_stars = array_create(LEVEL_COUNT, 0);
 	global.player_stars_total = 0;
 	global.stamina = 100;
+	global.semi_solids = [ObjTree, ObjSnowman];
 }
