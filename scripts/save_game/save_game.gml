@@ -1,5 +1,5 @@
 function save() {
-	var _save_data = array_create(1);
+	var _save_data = array_create(3);
 	
 	// add array into _save_data:
 	_save_data[0] = global.player_scores;
