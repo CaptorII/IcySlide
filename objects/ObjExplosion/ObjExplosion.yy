@@ -1,14 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"ObjSnowman",
+  "%Name":"ObjExplosion",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"ObjPlayer","path":"objects/ObjPlayer/ObjPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"ObjExplosion","path":"objects/ObjExplosion/ObjExplosion.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ObjSnowman",
+  "name":"ObjExplosion",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SprSnowman",
-    "path":"sprites/SprSnowman/SprSnowman.yy",
+    "name":"SprExplosion",
+    "path":"sprites/SprExplosion/SprExplosion.yy",
   },
   "spriteMaskId":null,
   "visible":true,

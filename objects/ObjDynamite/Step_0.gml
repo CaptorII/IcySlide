@@ -30,12 +30,16 @@ if (moving) {
 		//explode if hitting a solid
 		} else if (face == 0 && semi_solid_present(x + GRID_SIZE, y)) {
 			explode(x, y);
+			instance_destroy();
 		} else if (face == 1 && semi_solid_present(x, y - GRID_SIZE)) {
 			explode(x, y);
+			instance_destroy();			
 		} else if (face == 2 && semi_solid_present(x - GRID_SIZE, y)) {
 			explode(x, y);
+			instance_destroy();
 		} else if (face == 3 && semi_solid_present(x, y + GRID_SIZE)) {
 			explode(x, y);
+			instance_destroy();
 		} else {
 			//hit something?
 			moving = false;
