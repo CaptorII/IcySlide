@@ -369,6 +369,7 @@
     {"name":"OptionsMenu","order":11,"path":"rooms/OptionsMenu/OptionsMenu.yy",},
     {"name":"ScoreScreen","order":15,"path":"rooms/ScoreScreen/ScoreScreen.yy",},
     {"name":"StartMenu","order":12,"path":"rooms/StartMenu/StartMenu.yy",},
+    {"name":"W02L01","order":138,"path":"rooms/W02L01/W02L01.yy",},
     {"name":"explode","order":10,"path":"scripts/explode/explode.yy",},
     {"name":"fall_in_water","order":1,"path":"scripts/fall_in_water/fall_in_water.yy",},
     {"name":"hit_snowman","order":9,"path":"scripts/hit_snowman/hit_snowman.yy",},
@@ -399,6 +400,7 @@
     {"name":"SprFlagIcon","order":3,"path":"sprites/SprFlagIcon/SprFlagIcon.yy",},
     {"name":"SprGateHoriz","order":1,"path":"sprites/SprGateHoriz/SprGateHoriz.yy",},
     {"name":"SprIceTiles","order":4,"path":"sprites/SprIceTiles/SprIceTiles.yy",},
+    {"name":"SprIceTilesW2","order":32,"path":"sprites/SprIceTilesW2/SprIceTilesW2.yy",},
     {"name":"SprLantern","order":30,"path":"sprites/SprLantern/SprLantern.yy",},
     {"name":"SprLight","order":29,"path":"sprites/SprLight/SprLight.yy",},
     {"name":"SprLogo","order":5,"path":"sprites/SprLogo/SprLogo.yy",},
@@ -437,5 +439,6 @@
     {"name":"SprWarp2","order":1,"path":"sprites/SprWarp2/SprWarp2.yy",},
     {"name":"SprWarp3","order":2,"path":"sprites/SprWarp3/SprWarp3.yy",},
     {"name":"SprWarp4","order":3,"path":"sprites/SprWarp4/SprWarp4.yy",},
+    {"name":"TsIceW2","order":1,"path":"tilesets/TsIceW2/TsIceW2.yy",},
   ],
 }
