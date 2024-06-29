@@ -1,4 +1,13 @@
-if (moving && place_free(destination[0], destination[1]) && !semi_solid_present(destination[0], destination[1])) {
+adjacent[0] = instance_position(x + GRID_SIZE, y, global.semi_solids);
+adjacent[1] = instance_position(x, y - GRID_SIZE, global.semi_solids);
+adjacent[2] = instance_position(x - GRID_SIZE, y, global.semi_solids);
+adjacent[3] = instance_position(x, y + GRID_SIZE, global.semi_solids);
+if ((adjacent[0] && adjacent[2]) || (adjacent[1] && adjacent[3])) {	
+	solid = true;
+} else {
+	solid = false;
+}
+if (moving) {
 	if (x != destination[0] || y != destination[1]) {
 		x += x_speed;
 		y += y_speed;
@@ -28,8 +37,9 @@ if (moving && place_free(destination[0], destination[1]) && !semi_solid_present(
 		} else if (face == 3 && semi_solid_present(x, y + GRID_SIZE)) {
 			explode(x, y);
 		} else {
-			//hit a rock
+			//hit something?
 			moving = false;
+			show_debug_message("dynamite did not land on snow or explode");
 		}
 	}
 }

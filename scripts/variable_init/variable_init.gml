@@ -1,12 +1,12 @@
 function variable_init() {
 	#macro RESOLUTION_W 540
 	#macro RESOLUTION_H 960
-	#macro LAST_LEVEL Level127
+	#macro LAST_LEVEL Level130
 	#macro GRID_SIZE 64
 	#macro DEFAULT_SCORE 999
-	#macro LEVEL_COUNT 128 // must be number of levels implemented + 1
+	#macro LEVEL_COUNT 131 // must be number of levels implemented + 1
 	#macro SAVE_FILE "highscores.json"
-	#macro VERSION "0.3.128"
+	#macro VERSION "0.3.130"
 	global.moves_in_level = 0;
 	global.current_flag_count = 0;
 	global.flag_count = 0;
@@ -20,9 +20,9 @@ function variable_init() {
 						2, 4, 12, 1, 5, 3, 6, 29, 4, 7, 8, 8, 16, 9, 17, 15, 9, 41, 13, 13,
 						6, 6, 9, 11, 11, 10, 18, 25, 32, 30, 4, 3, 5, 14, 12, 21, 19, 26, 29, 22,
 						4, 3, 4, 13, 11, 28, 23, 33, 35, 29, 3, 7, 4, 12, 7, 26, 12, 25, 19, 12,
-						4, 7, 13, 15, 15, 15, 26];
+						4, 7, 13, 15, 15, 15, 26, 35, 20, 25];
 	global.player_stars = array_create(LEVEL_COUNT, 0);
 	global.player_stars_total = 0;
 	global.stamina = 100;
-	global.semi_solids = [ObjTree, ObjSnowman];
+	global.semi_solids = [ObjTree, ObjSnowman, ObjWall, ObjPlayer];
 }
