@@ -5,26 +5,10 @@ Programming Assets:
 1. Confirmation dialog when pressing menu or restart buttons mid-level
 2. Change crack to send you to game over screen instead of immediately restarting
 3. Change crack to increment when moving off instead of moving onto it
-4. Dynamite:
-destructible rock = solid unless dynamite explodes near it
-when dynamite ends on snow, nothing happens
-when dynamite collides with a solid object it explodes
-explosion will occur in the 8 spaces around it.
-If space = regular rock, nothing happens
-destructible rock = destroyed
-snowman = normal activation (melt)
-tree = normal activation and destroyed
-pushable rock = destroyed
-solid stalactite = destroyed
-under stalactite shadow = activates stalactite to fall
-dynamite over crack, moves to next stage (like player)
-dynamite into hole = splashes and vanishes, no explosion
-dynamite onto move plate = same as rock/player
-dynamite onto warp pad = teleports and blocks pad from being used until moved off
-dynamite into light = changes light to destroyed light solid object that takes up a space but will not activate from pad
-5. Light: 
+4. Light: 
 on levels with light, visibility = player + 2 spaces
 new pad: step on it to turn on lights
 lights = new solid item that turns on and illuminates itself + 3 spaces or turns off when pad not blocked by player/rock/dynamite
-6. Lantern: collect it to increase light radius around player by 1 space per lantern collected 
+dynamite into light = changes light to destroyed light solid object that takes up a space but will not activate from pad
+5. Lantern: collect it to increase light radius around player by 1 space per lantern collected 
 illuminates itself + 1 space
